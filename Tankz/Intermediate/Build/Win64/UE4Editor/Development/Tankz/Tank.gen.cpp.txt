@@ -1,0 +1,11 @@
+C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\Definitions.Tankz.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Source\Tankz/Tank.h
+C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Source\Tankz\BaseCharacter.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Inc\Tankz\BaseCharacter.generated.h
+C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Inc\Tankz\Tank.generated.h

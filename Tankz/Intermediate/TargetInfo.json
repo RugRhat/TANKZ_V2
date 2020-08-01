@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Tankz",
+			"Path": "C:\\Users\\Angelica .DESKTOP-RM5JOAJ\\Documents\\TANKZ_V2\\Tankz\\Source\\Tankz.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TankzEditor",
+			"Path": "C:\\Users\\Angelica .DESKTOP-RM5JOAJ\\Documents\\TANKZ_V2\\Tankz\\Source\\TankzEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

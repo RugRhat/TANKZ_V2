@@ -1,0 +1,1493 @@
+﻿Log file open, 07/31/20 22:10:03
+LogInit: Display: Running engine for game: Tankz
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.262480
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz, GPU: Intel(R) HD Graphics 620
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Engine.ini]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Engine.ini]
+[2020.08.01-02.10.03:774][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Engine.ini]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Engine.ini]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.08.01-02.10.03:774][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.08.01-02.10.03:775][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.08.01-02.10.03:775][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.08.01-02.10.03:775][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.08.01-02.10.03:775][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Engine.ini]
+[2020.08.01-02.10.03:775][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Engine.ini]
+[2020.08.01-02.10.03:778][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.01-02.10.03:778][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.01-02.10.03:779][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.01-02.10.03:780][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.01-02.10.03:780][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.08.01-02.10.03:780][  0]LogHAL: Display: Platform has ~ 16 GB [17052516352 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.08.01-02.10.03:780][  0]LogInit: Going up to parent DeviceProfile []
+[2020.08.01-02.10.03:780][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.01-02.10.03:780][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.8]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:48]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.SSR.Quality:2]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2020.08.01-02.10.03:781][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:1]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.SSS.Quality:-1]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.SSGI.Quality:2]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.5]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:1]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@2] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.08.01-02.10.03:782][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Engine.ini]
+[2020.08.01-02.10.03:783][  0]LogInit: Computer: SKETCH-PC
+[2020.08.01-02.10.03:783][  0]LogInit: User: Angelica
+[2020.08.01-02.10.03:783][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.08.01-02.10.03:783][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.08.01-02.10.03:783][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.08.01-02.10.03:783][  0]LogMemory: Platform Memory Stats for Windows
+[2020.08.01-02.10.03:783][  0]LogMemory: Process Physical Memory: 113.70 MB used, 113.71 MB peak
+[2020.08.01-02.10.03:783][  0]LogMemory: Process Virtual Memory: 103.18 MB used, 103.18 MB peak
+[2020.08.01-02.10.03:783][  0]LogMemory: Physical Memory: 6222.98 MB used,  10039.57 MB free, 16262.55 MB total
+[2020.08.01-02.10.03:783][  0]LogMemory: Virtual Memory: 5130.98 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2020.08.01-02.10.03:791][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.08.01-02.10.03:839][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.08.01-02.10.03:840][  0]LogInit: Using OS detected language (en-US).
+[2020.08.01-02.10.03:840][  0]LogInit: Using OS detected locale (en-US).
+[2020.08.01-02.10.03:846][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.08.01-02.10.04:067][  0]LogInit: Setting process to per monitor DPI aware
+[2020.08.01-02.10.04:117][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.08.01-02.10.04:117][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.08.01-02.10.04:373][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.01-02.10.04:373][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.08.01-02.10.04:373][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.08.01-02.10.04:373][  0]LogD3D11RHI: D3D11 adapters:
+[2020.08.01-02.10.04:555][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2020.08.01-02.10.04:555][  0]LogD3D11RHI:       128/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.08.01-02.10.04:558][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.01-02.10.04:558][  0]LogD3D11RHI:       0/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.01-02.10.04:561][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.01-02.10.04:561][  0]LogD3D11RHI:       0/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.01-02.10.04:564][  0]LogD3D11RHI:    3. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.01-02.10.04:564][  0]LogD3D11RHI:       0/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.01-02.10.04:566][  0]LogD3D11RHI:    4. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.01-02.10.04:566][  0]LogD3D11RHI:       0/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.01-02.10.04:567][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.08.01-02.10.04:575][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.08.01-02.10.04:575][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2020.08.01-02.10.04:575][  0]LogWindows: EnumDisplayDevices:
+[2020.08.01-02.10.04:575][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2020.08.01-02.10.04:576][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2020.08.01-02.10.04:576][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2020.08.01-02.10.04:576][  0]LogWindows:    3. 'MS Idd Device' (P:0 D:0)
+[2020.08.01-02.10.04:577][  0]LogWindows:    4. 'MS Idd Device' (P:0 D:0)
+[2020.08.01-02.10.04:577][  0]LogWindows:    5. 'MS Idd Device' (P:0 D:0)
+[2020.08.01-02.10.04:577][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
+[2020.08.01-02.10.04:577][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2020.08.01-02.10.04:577][  0]LogD3D11RHI:   Driver Version: 24.20.100.6344 (internal:24.20.100.6344, unified:24.20.100.6344)
+[2020.08.01-02.10.04:577][  0]LogD3D11RHI:      Driver Date: 11-10-2018
+[2020.08.01-02.10.04:577][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2020.08.01-02.10.04:582][  0]LogD3D11RHI: [IntelMetricsDiscovery] Failed to initialize context. Result=00000002
+[2020.08.01-02.10.04:731][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.08.01-02.10.04:731][  0]LogD3D11RHI: Async texture creation enabled
+[2020.08.01-02.10.04:731][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.08.01-02.10.04:737][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2020.08.01-02.10.05:165][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.08.01-02.10.05:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.08.01-02.10.05:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.08.01-02.10.05:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.08.01-02.10.05:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.08.01-02.10.05:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.08.01-02.10.05:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.08.01-02.10.05:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.08.01-02.10.05:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.08.01-02.10.05:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.08.01-02.10.05:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.08.01-02.10.05:225][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.08.01-02.10.05:225][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.08.01-02.10.05:239][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.08.01-02.10.05:251][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.08.01-02.10.05:264][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.08.01-02.10.05:275][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.08.01-02.10.05:288][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.08.01-02.10.05:300][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.08.01-02.10.05:312][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.08.01-02.10.05:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.08.01-02.10.05:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.08.01-02.10.05:369][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.08.01-02.10.05:369][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.08.01-02.10.05:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.08.01-02.10.05:392][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.08.01-02.10.05:403][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.08.01-02.10.05:413][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.08.01-02.10.05:414][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.08.01-02.10.05:423][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.08.01-02.10.05:500][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Intermediate/Shaders/WorkingDirectory/15592/).
+[2020.08.01-02.10.05:500][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Angelica .DESKTOP-RM5JOAJ/AppData/Local/Temp/UnrealShaderWorkingDir/ABB6E1B946C00926F44E1ABE4CE4371B/'.
+[2020.08.01-02.10.05:501][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.08.01-02.10.05:501][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.08.01-02.10.05:501][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.08.01-02.10.06:411][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.08.01-02.10.06:467][  0]LogDerivedDataCache: Loaded boot cache 0.06s 75MB C:/Users/Angelica .DESKTOP-RM5JOAJ/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.01-02.10.06:467][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Angelica .DESKTOP-RM5JOAJ/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.08.01-02.10.06:467][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.08.01-02.10.06:467][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.08.01-02.10.06:467][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.01-02.10.06:468][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.08.01-02.10.06:482][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.08.01-02.10.06:482][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.01-02.10.06:482][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.08.01-02.10.06:484][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Angelica .DESKTOP-RM5JOAJ/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.08.01-02.10.06:484][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.08.01-02.10.06:484][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.08.01-02.10.06:548][  0]LogSlate: Using FreeType 2.10.0
+[2020.08.01-02.10.06:549][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.08.01-02.10.06:590][  0]LogAssetRegistry: FAssetRegistry took 0.0031 seconds to start up
+[2020.08.01-02.10.06:902][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.01-02.10.07:043][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.08.01-02.10.07:043][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.08.01-02.10.07:043][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.08.01-02.10.07:043][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.08.01-02.10.07:043][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.08.01-02.10.07:059][  0]LogNetVersion: Tankz 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2266825420)
+[2020.08.01-02.10.07:667][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002B0A8B302C0), frame # 0
+[2020.08.01-02.10.07:667][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002B0AC277EC0), frame # 0
+[2020.08.01-02.10.07:669][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002B0AC2D9E00), frame # 0
+[2020.08.01-02.10.07:767][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.091769 seconds
+[2020.08.01-02.10.07:773][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.08.01-02.10.07:773][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.08.01-02.10.07:773][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.08.01-02.10.08:191][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.08.01-02.10.08:196][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.08.01-02.10.08:310][  0]SourceControl: Source control is disabled
+[2020.08.01-02.10.08:310][  0]SourceControl: Source control is disabled
+[2020.08.01-02.10.08:314][  0]SourceControl: Source control is disabled
+[2020.08.01-02.10.08:318][  0]SourceControl: Source control is disabled
+[2020.08.01-02.10.08:326][  0]SourceControl: Source control is disabled
+[2020.08.01-02.10.08:635][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.08.01-02.10.08:660][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.01-02.10.08:660][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.01-02.10.08:724][  0]LogOcInput: OculusInput pre-init called
+[2020.08.01-02.10.08:739][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.08.01-02.10.08:739][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.08.01-02.10.08:812][  0]LogEngine: Initializing Engine...
+[2020.08.01-02.10.08:814][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.01-02.10.08:814][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.08.01-02.10.08:815][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.08.01-02.10.08:969][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.08.01-02.10.08:978][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.08.01-02.10.08:978][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002B0AFEF7C00), frame # 0
+[2020.08.01-02.10.08:978][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002B0AFFB9800), frame # 0
+[2020.08.01-02.10.08:983][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.01-02.10.08:983][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.01-02.10.08:983][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.01-02.10.08:983][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.01-02.10.08:983][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.01-02.10.08:983][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.01-02.10.08:983][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.01-02.10.08:983][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.01-02.10.08:983][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.01-02.10.08:983][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.01-02.10.09:014][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.01-02.10.09:014][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.08.01-02.10.09:253][  0]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio(SST))
+[2020.08.01-02.10.09:254][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.01-02.10.09:256][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.01-02.10.09:256][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.01-02.10.09:257][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.01-02.10.09:258][  0]LogInit: FAudioDevice initialized.
+[2020.08.01-02.10.09:259][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.08.01-02.10.09:314][  0]LogDerivedDataCache: Saved boot cache 0.05s 75MB C:/Users/Angelica .DESKTOP-RM5JOAJ/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.01-02.10.09:320][  0]LogInit: Texture streaming: Enabled
+[2020.08.01-02.10.09:344][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.08.01-02.10.09:344][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.08.01-02.10.09:355][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.08.01-02.10.09:424][  0]LogInit: Transaction tracking system initialized
+[2020.08.01-02.10.09:449][  0]BlueprintLog: New page: Editor Load
+[2020.08.01-02.10.09:530][  0]LocalizationService: Localization service is disabled
+[2020.08.01-02.10.09:745][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.08.01-02.10.09:745][  0]LogCook: Display: Mobile HDR setting 1
+[2020.08.01-02.10.09:964][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/' took 0.00s
+[2020.08.01-02.10.10:436][  0]SourceControl: Source control is disabled
+[2020.08.01-02.10.10:436][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.853
+[2020.08.01-02.10.10:436][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.01-02.10.10:436][  0]LightingResults: New page: Lighting Build
+[2020.08.01-02.10.10:437][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.08.01-02.10.10:437][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.01-02.10.10:437][  0]MapCheck: New page: Map Check
+[2020.08.01-02.10.10:437][  0]LightingResults: New page: Lighting Build
+[2020.08.01-02.10.10:445][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002B0AFEF7C00), frame # 0
+[2020.08.01-02.10.10:445][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002B0AFFB9800), frame # 0
+[2020.08.01-02.10.10:446][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.08.01-02.10.10:525][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.08.01-02.10.10:525][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002B09F4FE000), frame # 0
+[2020.08.01-02.10.10:525][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002B09F5EE200), frame # 0
+[2020.08.01-02.10.10:531][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.01-02.10.10:542][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.08.01-02.10.10:542][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.01-02.10.10:543][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.266ms to complete.
+[2020.08.01-02.10.10:543][  0]LogFileHelpers: Loading map 'Template_Default' took 0.106
+[2020.08.01-02.10.10:545][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.962
+[2020.08.01-02.10.11:183][  0]LogCollectionManager: Loaded 0 collections in 0.002310 seconds
+[2020.08.01-02.10.11:200][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Collections/' took 0.00s
+[2020.08.01-02.10.11:200][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Developers/Angelica/Collections/' took 0.00s
+[2020.08.01-02.10.11:200][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Collections/' took 0.00s
+[2020.08.01-02.10.11:200][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 3428 classes and 823 folders.
+[2020.08.01-02.10.11:204][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.08.01-02.10.11:584][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.08.01-02.10.11:586][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.08.01-02.10.11:641][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.01-02.10.11:650][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.01-02.10.11:659][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.01-02.10.11:668][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.01-02.10.11:705][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.08.01-02.10.12:215][  0]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.08.01-02.10.12:240][  0]LogSlate: Took 0.014699 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.08.01-02.10.12:254][  0]LogSlate: Took 0.013760 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.08.01-02.10.12:549][  0]LogRenderer: Reallocating scene render targets to support 1080x544 Format 9 NumSamples 1 (Frame:1).
+[2020.08.01-02.10.12:636][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.08.01-02.10.12:636][  0]LogLoad: (Engine Initialization) Total time: 11.05 seconds
+[2020.08.01-02.10.12:636][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.08.01-02.10.13:027][  0]LogAssetRegistry: Asset discovery search completed in 6.4388 seconds
+[2020.08.01-02.10.13:032][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.08.01-02.10.13:032][  0]LogContentStreaming: Texture pool size now 800 MB
+[2020.08.01-02.10.13:773][ 14]LogSlate: Took 0.008344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.01-02.10.31:507][282]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2020.08.01-02.10.33:002][282]LogSlate: Window 'Delete Assets' being destroyed
+[2020.08.01-02.10.33:225][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.08.01-02.10.33:275][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.08.01-02.10.33:295][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2020.08.01-02.10.43:974][299]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ Meshes/Tank.fbx)
+[2020.08.01-02.10.43:997][299]LogFbx: Loading FBX Scene from ../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ Meshes/Tank.fbx
+[2020.08.01-02.10.44:015][299]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.01-02.10.45:547][299]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.08.01-02.10.45:579][299]LogFbx: Valid bind pose for Pose (SM_TankBase) - SM_TankBase
+[2020.08.01-02.10.45:764][299]LogMaterial: Display: Material /Game/Models/Tank/M_Texture_Inst.M_Texture_Inst needed to have new flag set bUsedWithSkeletalMesh !
+[2020.08.01-02.10.45:766][299]LogMaterial: Display: Missing cached shader map for material M_Texture_Inst, compiling. 
+[2020.08.01-02.10.45:834][299]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 39
+[2020.08.01-02.10.45:834][299]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
+[2020.08.01-02.10.45:834][299]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 19
+[2020.08.01-02.10.45:858][299]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\Rob\Desktop\ToonTankAssets\Textures\T_ColourGrid.TGA
+[2020.08.01-02.10.45:863][299]LogMaterial: Display: Missing cached shader map for material M_Texture_Inst, compiling. 
+[2020.08.01-02.10.45:901][299]LogMaterial: Display: Material /Game/Models/Tank/M_EmissiveGreen_Inst.M_EmissiveGreen_Inst needed to have new flag set bUsedWithSkeletalMesh !
+[2020.08.01-02.10.45:904][299]LogMaterial: Display: Missing cached shader map for material M_EmissiveGreen_Inst, compiling. 
+[2020.08.01-02.10.45:954][299]LogMaterial: Display: Missing cached shader map for material M_EmissiveGreen_Inst, compiling. 
+[2020.08.01-02.10.46:002][299]LogMaterial: Display: Material /Game/Models/Tank/M_Texture_Inst_001.M_Texture_Inst_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2020.08.01-02.10.46:004][299]LogMaterial: Display: Missing cached shader map for material M_Texture_Inst_001, compiling. 
+[2020.08.01-02.10.46:057][299]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\Rob\Desktop\ToonTankAssets\Textures\T_ColourGrid.TGA
+[2020.08.01-02.10.46:062][299]LogMaterial: Display: Missing cached shader map for material M_Texture_Inst_001, compiling. 
+[2020.08.01-02.10.46:110][299]LogMaterial: Display: Material /Game/Models/Tank/M_EmissiveGreen_Inst_001.M_EmissiveGreen_Inst_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2020.08.01-02.10.46:112][299]LogMaterial: Display: Missing cached shader map for material M_EmissiveGreen_Inst_001, compiling. 
+[2020.08.01-02.10.46:163][299]LogMaterial: Display: Missing cached shader map for material M_EmissiveGreen_Inst_001, compiling. 
+[2020.08.01-02.10.46:223][299]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2020.08.01-02.10.46:391][299]LogSkeletalMesh: Section 0: 1359 vertices, 1 active bones
+[2020.08.01-02.10.46:391][299]LogSkeletalMesh: Section 1: 16 vertices, 1 active bones
+[2020.08.01-02.10.46:391][299]LogSkeletalMesh: Section 2: 437 vertices, 1 active bones
+[2020.08.01-02.10.46:391][299]LogSkeletalMesh: Section 3: 17 vertices, 1 active bones
+[2020.08.01-02.10.46:392][299]LogSkeletalMesh: Section 0: Material=0, 1644 triangles
+[2020.08.01-02.10.46:392][299]LogSkeletalMesh: Section 1: Material=1, 20 triangles
+[2020.08.01-02.10.46:392][299]LogSkeletalMesh: Section 2: Material=2, 648 triangles
+[2020.08.01-02.10.46:392][299]LogSkeletalMesh: Section 3: Material=3, 16 triangles
+[2020.08.01-02.10.46:394][299]LogSkeletalMesh: Building Skeletal Mesh Tank...
+[2020.08.01-02.10.46:537][299]LogSkeletalMesh: Section 0: 1359 vertices, 1 active bones
+[2020.08.01-02.10.46:537][299]LogSkeletalMesh: Section 1: 16 vertices, 1 active bones
+[2020.08.01-02.10.46:537][299]LogSkeletalMesh: Section 2: 437 vertices, 1 active bones
+[2020.08.01-02.10.46:537][299]LogSkeletalMesh: Section 3: 17 vertices, 1 active bones
+[2020.08.01-02.10.46:537][299]LogSkeletalMesh: Section 0: Material=0, 1644 triangles
+[2020.08.01-02.10.46:537][299]LogSkeletalMesh: Section 1: Material=1, 20 triangles
+[2020.08.01-02.10.46:538][299]LogSkeletalMesh: Section 2: Material=2, 648 triangles
+[2020.08.01-02.10.46:538][299]LogSkeletalMesh: Section 3: Material=3, 16 triangles
+[2020.08.01-02.10.46:551][299]LogSkeletalMesh: Built Skeletal Mesh [0.16s] /Game/Models/Tank/Tank.Tank
+[2020.08.01-02.10.46:564][299]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2020.08.01-02.10.46:564][299]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.08.01-02.10.46:564][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.01-02.10.46:595][299]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.08.01-02.10.46:595][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.01-02.10.48:374][327]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Tank_PhysicsAssetAA420F1847F1761DEE2D1E989059C8BC.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Tank/Tank_PhysicsAsset.uasset'
+[2020.08.01-02.10.48:380][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Tank/Tank_Skeleton" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Tank/Tank_Skeleton.uasset" SILENT=true
+[2020.08.01-02.10.48:396][327]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Tank_SkeletonC311361249342B313CA05AAEEFD0CF10.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Tank/Tank_Skeleton.uasset'
+[2020.08.01-02.10.53:957][327]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 156
+[2020.08.01-02.10.55:068][327]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 146
+[2020.08.01-02.10.55:068][327]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 136
+[2020.08.01-02.11.01:726][327]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 126
+[2020.08.01-02.11.02:283][327]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 116
+[2020.08.01-02.11.03:391][327]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 106
+[2020.08.01-02.11.09:486][327]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 96
+[2020.08.01-02.11.09:486][327]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 86
+[2020.08.01-02.11.10:595][327]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 76
+[2020.08.01-02.11.16:701][327]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 66
+[2020.08.01-02.11.17:257][327]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 56
+[2020.08.01-02.11.17:812][327]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 46
+[2020.08.01-02.11.24:485][327]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 36
+[2020.08.01-02.11.25:038][327]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 26
+[2020.08.01-02.11.25:038][327]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 17
+[2020.08.01-02.11.29:471][327]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 11
+[2020.08.01-02.11.31:693][327]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.08.01-02.11.32:249][327]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.08.01-02.11.32:804][327]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.08.01-02.11.33:361][327]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2020.08.01-02.11.34:174][327]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/M_EmissiveGreen_Inst_001A014D48544CC032F34F617820FF35ACD.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Tank/M_EmissiveGreen_Inst_001.uasset'
+[2020.08.01-02.11.34:225][327]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/M_Texture_Inst_0014411C16E4DA1E625F1354A9A7F9F6E16.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Tank/M_Texture_Inst_001.uasset'
+[2020.08.01-02.11.34:299][327]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/M_EmissiveGreen_Inst33663F584941515B2423C0B823CE47B9.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Tank/M_EmissiveGreen_Inst.uasset'
+[2020.08.01-02.11.34:340][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Tank/M_Texture_Inst" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Tank/M_Texture_Inst.uasset" SILENT=true
+[2020.08.01-02.11.34:362][327]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/M_Texture_InstE741ACE74852F7B97A8289B747E21C30.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Tank/M_Texture_Inst.uasset'
+[2020.08.01-02.11.34:402][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Tank/Tank" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Tank/Tank.uasset" SILENT=true
+[2020.08.01-02.11.34:486][327]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Tank905BC81241EE7D4EBE07CD8903E957FC.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Tank/Tank.uasset'
+[2020.08.01-02.11.34:523][327]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.01-02.11.34:523][327]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/Tank/Tank_PhysicsAsset.Tank_PhysicsAsset
+[2020.08.01-02.11.34:523][327]LogContentValidation: Display: Validating Skeleton /Game/Models/Tank/Tank_Skeleton.Tank_Skeleton
+[2020.08.01-02.11.34:523][327]LogContentValidation: Display: Validating Material /Game/Models/Tank/M_EmissiveGreen_Inst_001.M_EmissiveGreen_Inst_001
+[2020.08.01-02.11.34:523][327]LogContentValidation: Display: Validating Material /Game/Models/Tank/M_Texture_Inst_001.M_Texture_Inst_001
+[2020.08.01-02.11.34:523][327]LogContentValidation: Display: Validating Material /Game/Models/Tank/M_EmissiveGreen_Inst.M_EmissiveGreen_Inst
+[2020.08.01-02.11.34:523][327]LogContentValidation: Display: Validating Material /Game/Models/Tank/M_Texture_Inst.M_Texture_Inst
+[2020.08.01-02.11.34:523][327]LogContentValidation: Display: Validating SkeletalMesh /Game/Models/Tank/Tank.Tank
+[2020.08.01-02.11.39:625][390]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/Models/Tank/Tank_PhysicsAsset.Tank_PhysicsAsset
+[2020.08.01-02.11.39:658][390]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0015 seconds. Added 8 classes and 3 folders.
+[2020.08.01-02.11.39:663][390]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2020.08.01-02.11.40:135][390]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2020.08.01-02.11.40:138][390]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2020.08.01-02.11.41:546][390]LogSlate: Took 0.000286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.08.01-02.11.41:694][391]LogRenderer: Reallocating scene render targets to support 1080x708 Format 9 NumSamples 1 (Frame:1).
+[2020.08.01-02.11.44:378][426]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2020.08.01-02.11.44:383][426]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2020.08.01-02.11.58:874][617]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Tank_PhysicsAssetF2388B2A4AA3260BB891A8861C300183.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Tank/Tank_PhysicsAsset.uasset'
+[2020.08.01-02.11.58:921][617]AssetCheck: New page: Asset Save: Tank_PhysicsAsset
+[2020.08.01-02.11.58:922][617]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/Tank/Tank_PhysicsAsset.Tank_PhysicsAsset
+[2020.08.01-02.12.00:039][632]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Tank_PhysicsAssetEAD088DF423EA131720BBEAD92BCF35F.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Tank/Tank_PhysicsAsset.uasset'
+[2020.08.01-02.12.00:087][632]AssetCheck: New page: Asset Save: Tank_PhysicsAsset
+[2020.08.01-02.12.00:087][632]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/Tank/Tank_PhysicsAsset.Tank_PhysicsAsset
+[2020.08.01-02.12.06:039][736]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.08.01-02.12.06:039][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.01-02.12.07:755][756]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2020.08.01-02.12.07:875][759]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.08.01-02.12.08:154][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.08.01-02.12.15:500][819]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ Meshes/Turret.fbx)
+[2020.08.01-02.12.15:517][819]LogFbx: Loading FBX Scene from ../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ Meshes/Turret.fbx
+[2020.08.01-02.12.15:531][819]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.01-02.12.17:974][819]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.08.01-02.12.18:034][819]LogFbx: Valid bind pose for Pose (SM_TowerBase) - Turret
+[2020.08.01-02.12.18:037][819]LogMaterial: Display: Material /Game/Models/Turret/M_Texture_Inst.M_Texture_Inst needed to have new flag set bUsedWithSkeletalMesh !
+[2020.08.01-02.12.18:039][819]LogMaterial: Display: Missing cached shader map for material M_Texture_Inst, compiling. 
+[2020.08.01-02.12.18:100][819]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 39
+[2020.08.01-02.12.18:100][819]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
+[2020.08.01-02.12.18:100][819]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 19
+[2020.08.01-02.12.18:101][819]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\Rob\Desktop\ToonTankAssets\Textures\T_ColourGrid.TGA
+[2020.08.01-02.12.18:105][819]LogMaterial: Display: Missing cached shader map for material M_Texture_Inst, compiling. 
+[2020.08.01-02.12.18:161][819]LogMaterial: Display: Material /Game/Models/Turret/M_EmissiveRed_Inst.M_EmissiveRed_Inst needed to have new flag set bUsedWithSkeletalMesh !
+[2020.08.01-02.12.18:164][819]LogMaterial: Display: Missing cached shader map for material M_EmissiveRed_Inst, compiling. 
+[2020.08.01-02.12.18:221][819]LogMaterial: Display: Missing cached shader map for material M_EmissiveRed_Inst, compiling. 
+[2020.08.01-02.12.18:274][819]LogMaterial: Display: Material /Game/Models/Turret/M_Texture_Inst_001.M_Texture_Inst_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2020.08.01-02.12.18:277][819]LogMaterial: Display: Missing cached shader map for material M_Texture_Inst_001, compiling. 
+[2020.08.01-02.12.18:331][819]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\Rob\Desktop\ToonTankAssets\Textures\T_ColourGrid.TGA
+[2020.08.01-02.12.18:337][819]LogMaterial: Display: Missing cached shader map for material M_Texture_Inst_001, compiling. 
+[2020.08.01-02.12.18:385][819]LogMaterial: Display: Material /Game/Models/Turret/M_EmissiveRed_Inst_001.M_EmissiveRed_Inst_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2020.08.01-02.12.18:388][819]LogMaterial: Display: Missing cached shader map for material M_EmissiveRed_Inst_001, compiling. 
+[2020.08.01-02.12.18:443][819]LogMaterial: Display: Missing cached shader map for material M_EmissiveRed_Inst_001, compiling. 
+[2020.08.01-02.12.18:503][819]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2020.08.01-02.12.18:658][819]LogSkeletalMesh: Section 0: 1153 vertices, 1 active bones
+[2020.08.01-02.12.18:658][819]LogSkeletalMesh: Section 1: 92 vertices, 1 active bones
+[2020.08.01-02.12.18:659][819]LogSkeletalMesh: Section 2: 848 vertices, 1 active bones
+[2020.08.01-02.12.18:659][819]LogSkeletalMesh: Section 3: 214 vertices, 1 active bones
+[2020.08.01-02.12.18:660][819]LogSkeletalMesh: Section 0: Material=0, 924 triangles
+[2020.08.01-02.12.18:660][819]LogSkeletalMesh: Section 1: Material=1, 52 triangles
+[2020.08.01-02.12.18:660][819]LogSkeletalMesh: Section 2: Material=2, 912 triangles
+[2020.08.01-02.12.18:660][819]LogSkeletalMesh: Section 3: Material=3, 156 triangles
+[2020.08.01-02.12.18:662][819]LogSkeletalMesh: Building Skeletal Mesh Turret...
+[2020.08.01-02.12.18:797][819]LogSkeletalMesh: Section 0: 1153 vertices, 1 active bones
+[2020.08.01-02.12.18:797][819]LogSkeletalMesh: Section 1: 92 vertices, 1 active bones
+[2020.08.01-02.12.18:798][819]LogSkeletalMesh: Section 2: 848 vertices, 1 active bones
+[2020.08.01-02.12.18:798][819]LogSkeletalMesh: Section 3: 214 vertices, 1 active bones
+[2020.08.01-02.12.18:801][819]LogSkeletalMesh: Section 0: Material=0, 924 triangles
+[2020.08.01-02.12.18:801][819]LogSkeletalMesh: Section 1: Material=1, 52 triangles
+[2020.08.01-02.12.18:801][819]LogSkeletalMesh: Section 2: Material=2, 912 triangles
+[2020.08.01-02.12.18:801][819]LogSkeletalMesh: Section 3: Material=3, 156 triangles
+[2020.08.01-02.12.18:810][819]LogSkeletalMesh: Built Skeletal Mesh [0.15s] /Game/Models/Turret/Turret.Turret
+[2020.08.01-02.12.18:825][819]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2020.08.01-02.12.18:825][819]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.08.01-02.12.18:825][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.01-02.12.18:831][819]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.08.01-02.12.18:831][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.01-02.12.23:838][877]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/Models/Turret/Turret_PhysicsAsset.Turret_PhysicsAsset
+[2020.08.01-02.12.23:862][877]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2020.08.01-02.12.30:687][877]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 156
+[2020.08.01-02.12.34:754][925]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 146
+[2020.08.01-02.12.35:904][932]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2020.08.01-02.12.36:039][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Turret/Turret" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Turret/Turret.uasset" SILENT=true
+[2020.08.01-02.12.36:244][932]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 136
+[2020.08.01-02.12.36:272][932]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/TurretFB4F395B4ACBB0F68E880DA4B3DD3762.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Turret/Turret.uasset'
+[2020.08.01-02.12.43:487][932]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 126
+[2020.08.01-02.12.43:487][932]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 116
+[2020.08.01-02.12.44:600][932]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 106
+[2020.08.01-02.12.50:632][932]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 96
+[2020.08.01-02.12.50:632][932]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 86
+[2020.08.01-02.12.50:677][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Turret/M_Texture_Inst" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Turret/M_Texture_Inst.uasset" SILENT=true
+[2020.08.01-02.12.50:715][932]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/M_Texture_InstAC553554497E6141B315D98DC7386750.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Turret/M_Texture_Inst.uasset'
+[2020.08.01-02.12.50:796][932]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Turret_PhysicsAssetB8A8597C44CCDA553DAF4094EDF9F9EC.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Turret/Turret_PhysicsAsset.uasset'
+[2020.08.01-02.12.52:473][932]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 76
+[2020.08.01-02.12.58:396][932]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 66
+[2020.08.01-02.12.58:396][932]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 56
+[2020.08.01-02.12.58:487][932]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/M_EmissiveRed_InstFFEE621644442F59EF5D64AFC4526C93.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Turret/M_EmissiveRed_Inst.uasset'
+[2020.08.01-02.12.59:607][932]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 46
+[2020.08.01-02.13.06:269][932]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 36
+[2020.08.01-02.13.06:269][932]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 26
+[2020.08.01-02.13.06:406][932]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
+[2020.08.01-02.13.06:475][932]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/M_Texture_Inst_0017D54961049330998D82852879B1E7794.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Turret/M_Texture_Inst_001.uasset'
+[2020.08.01-02.13.10:921][932]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2020.08.01-02.13.13:141][932]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.08.01-02.13.13:698][932]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.08.01-02.13.14:812][932]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.08.01-02.13.14:812][932]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.08.01-02.13.15:770][932]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/M_EmissiveRed_Inst_001353D112F4A309A44F82B5BBF971CF7F5.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Turret/M_EmissiveRed_Inst_001.uasset'
+[2020.08.01-02.13.15:788][932]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Turret_Skeleton03F78FD6425CE69FE7BC689199C9E437.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Turret/Turret_Skeleton.uasset'
+[2020.08.01-02.13.15:876][932]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.01-02.13.15:876][932]LogContentValidation: Display: Validating SkeletalMesh /Game/Models/Turret/Turret.Turret
+[2020.08.01-02.13.15:876][932]LogContentValidation: Display: Validating Material /Game/Models/Turret/M_Texture_Inst.M_Texture_Inst
+[2020.08.01-02.13.15:876][932]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/Turret/Turret_PhysicsAsset.Turret_PhysicsAsset
+[2020.08.01-02.13.15:876][932]LogContentValidation: Display: Validating Material /Game/Models/Turret/M_EmissiveRed_Inst.M_EmissiveRed_Inst
+[2020.08.01-02.13.15:876][932]LogContentValidation: Display: Validating Material /Game/Models/Turret/M_Texture_Inst_001.M_Texture_Inst_001
+[2020.08.01-02.13.15:876][932]LogContentValidation: Display: Validating Material /Game/Models/Turret/M_EmissiveRed_Inst_001.M_EmissiveRed_Inst_001
+[2020.08.01-02.13.15:876][932]LogContentValidation: Display: Validating Skeleton /Game/Models/Turret/Turret_Skeleton.Turret_Skeleton
+[2020.08.01-02.13.21:821][996]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2020.08.01-02.13.21:824][996]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2020.08.01-02.13.42:248][264]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2020.08.01-02.13.42:250][264]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2020.08.01-02.13.45:936][317]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2020.08.01-02.13.45:936][317]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.08.01-02.13.45:936][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.01-02.13.46:010][317]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.08.01-02.13.46:010][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.01-02.14.20:094][760]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2020.08.01-02.14.20:106][760]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.08.01-02.14.20:169][760]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Turret_PhysicsAssetCCBF3F1747441499D6BEA3A7ADF730F0.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Turret/Turret_PhysicsAsset.uasset'
+[2020.08.01-02.14.20:189][760]AssetCheck: New page: Asset Save: Turret_PhysicsAsset
+[2020.08.01-02.14.20:189][760]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/Turret/Turret_PhysicsAsset.Turret_PhysicsAsset
+[2020.08.01-02.14.20:814][770]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.08.01-02.14.52:430][169]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2020.08.01-02.14.52:583][169]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Turret_PhysicsAsset0234EAF94C5FE4C6AB44A1B72D523754.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Turret/Turret_PhysicsAsset.uasset'
+[2020.08.01-02.14.52:647][169]AssetCheck: New page: Asset Save: Turret_PhysicsAsset
+[2020.08.01-02.14.52:647][169]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/Turret/Turret_PhysicsAsset.Turret_PhysicsAsset
+[2020.08.01-02.15.40:905][790]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Turret_PhysicsAsset1C32B9E149943046E29456BD3B83C20E.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Turret/Turret_PhysicsAsset.uasset'
+[2020.08.01-02.15.40:943][790]AssetCheck: New page: Asset Save: Turret_PhysicsAsset
+[2020.08.01-02.15.40:943][790]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/Turret/Turret_PhysicsAsset.Turret_PhysicsAsset
+[2020.08.01-02.15.41:831][802]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Turret_PhysicsAssetEB9718084DF9445F827088B73CB73414.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Turret/Turret_PhysicsAsset.uasset'
+[2020.08.01-02.15.41:846][802]AssetCheck: New page: Asset Save: Turret_PhysicsAsset
+[2020.08.01-02.15.41:846][802]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/Turret/Turret_PhysicsAsset.Turret_PhysicsAsset
+[2020.08.01-02.15.42:159][806]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Turret_PhysicsAssetA34CE4274096BC9D642928BF2D53785D.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Turret/Turret_PhysicsAsset.uasset'
+[2020.08.01-02.15.42:178][806]AssetCheck: New page: Asset Save: Turret_PhysicsAsset
+[2020.08.01-02.15.42:179][806]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/Turret/Turret_PhysicsAsset.Turret_PhysicsAsset
+[2020.08.01-02.16.04:476][ 94]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/Models/Tank/Tank_PhysicsAsset.Tank_PhysicsAsset
+[2020.08.01-02.16.04:497][ 94]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2020.08.01-02.16.11:064][171]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Tank_PhysicsAsset5DB9EDA04A1DF2E51D7C3985051028B8.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Tank/Tank_PhysicsAsset.uasset'
+[2020.08.01-02.16.11:095][171]AssetCheck: New page: Asset Save: Tank_PhysicsAsset
+[2020.08.01-02.16.11:095][171]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/Tank/Tank_PhysicsAsset.Tank_PhysicsAsset
+[2020.08.01-02.16.12:575][193]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.08.01-02.16.12:575][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.01-02.18.36:189][131]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Turret_PhysicsAssetAE4310154557BC892026279CD97454AD.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Turret/Turret_PhysicsAsset.uasset'
+[2020.08.01-02.18.36:224][131]AssetCheck: New page: Asset Save: Turret_PhysicsAsset
+[2020.08.01-02.18.36:224][131]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/Turret/Turret_PhysicsAsset.Turret_PhysicsAsset
+[2020.08.01-02.18.36:962][141]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Turret_PhysicsAssetB016CE16420E2D01A9B141B04ED1CFFB.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Turret/Turret_PhysicsAsset.uasset'
+[2020.08.01-02.18.36:983][141]AssetCheck: New page: Asset Save: Turret_PhysicsAsset
+[2020.08.01-02.18.36:983][141]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/Turret/Turret_PhysicsAsset.Turret_PhysicsAsset
+[2020.08.01-02.18.37:287][145]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Turret_PhysicsAsset139AE92A4C0752DB3099A595884585BB.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Turret/Turret_PhysicsAsset.uasset'
+[2020.08.01-02.18.37:330][145]AssetCheck: New page: Asset Save: Turret_PhysicsAsset
+[2020.08.01-02.18.37:330][145]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/Turret/Turret_PhysicsAsset.Turret_PhysicsAsset
+[2020.08.01-02.21.26:664][277]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Turret_PhysicsAssetF9A15BAF4077678890C3FEBCAC95142B.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Models/Turret/Turret_PhysicsAsset.uasset'
+[2020.08.01-02.21.26:693][277]AssetCheck: New page: Asset Save: Turret_PhysicsAsset
+[2020.08.01-02.21.26:695][277]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/Turret/Turret_PhysicsAsset.Turret_PhysicsAsset
+[2020.08.01-02.21.28:865][310]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.08.01-02.21.28:865][310]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.01-02.21.30:776][333]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.08.01-02.21.30:892][336]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.08.01-02.21.31:080][339]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2020.08.01-02.25.26:735][527]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.08.01-02.25.26:736][527]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.08.01-02.25.29:165][555]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.08.01-02.25.51:117][842]Candidate modules for hot reload:
+[2020.08.01-02.25.51:117][842]  Tankz
+[2020.08.01-02.25.51:118][842]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tankz,7656 TankzEditor Win64 Development -Project="C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject" "C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject"  -IgnoreJunk]
+[2020.08.01-02.26.30:105][842]CompilerResultsLog: New page: Compilation - Jul 31, 2020, 6:26:30 PM
+[2020.08.01-02.26.30:105][842]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2).
+[2020.08.01-02.26.30:105][842]CompilerResultsLog: Creating makefile for TankzEditor (no existing makefile)
+[2020.08.01-02.26.30:105][842]CompilerResultsLog: Parsing headers for TankzEditor
+[2020.08.01-02.26.30:105][842]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Tankz.uproject" "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\TankzEditor\Development\TankzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Angelica .DESKTOP-RM5JOAJ\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.08.01-02.26.30:105][842]CompilerResultsLog: Reflection code generated for TankzEditor in 30.3876003 seconds
+[2020.08.01-02.26.30:105][842]CompilerResultsLog: Building TankzEditor...
+[2020.08.01-02.26.30:106][842]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.08.01-02.26.30:106][842]CompilerResultsLog: Building 9 actions with 4 processes...
+[2020.08.01-02.26.30:106][842]CompilerResultsLog:   [1/9] BaseCharacter.cpp
+[2020.08.01-02.26.30:106][842]CompilerResultsLog:   [2/9] Tankz.cpp
+[2020.08.01-02.26.30:106][842]CompilerResultsLog:   [3/9] TankzGameModeBase.cpp
+[2020.08.01-02.26.30:106][842]CompilerResultsLog:   [4/9] BaseCharacter.gen.cpp
+[2020.08.01-02.26.30:106][842]CompilerResultsLog:   [5/9] Tankz.init.gen.cpp
+[2020.08.01-02.26.30:106][842]CompilerResultsLog:   [6/9] TankzGameModeBase.gen.cpp
+[2020.08.01-02.26.30:106][842]CompilerResultsLog:   [7/9] UE4Editor-Tankz-7656.lib
+[2020.08.01-02.26.30:106][842]CompilerResultsLog:      Creating library C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-7656.lib and object C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-7656.exp
+[2020.08.01-02.26.30:106][842]CompilerResultsLog:   [8/9] UE4Editor-Tankz-7656.dll
+[2020.08.01-02.26.30:106][842]CompilerResultsLog:      Creating library C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-7656.suppressed.lib and object C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-7656.suppressed.exp
+[2020.08.01-02.26.30:106][842]CompilerResultsLog:   [9/9] TankzEditor.target
+[2020.08.01-02.26.30:106][842]CompilerResultsLog: Total time in Parallel executor: 4.46 seconds
+[2020.08.01-02.26.30:106][842]CompilerResultsLog: Total execution time: 38.72 seconds
+[2020.08.01-02.26.30:106][842]LogMainFrame: MainFrame: Module compiling took 38.996 seconds
+[2020.08.01-02.26.30:137][842]LogClass: Could not find existing class BaseCharacter in package /Script/Tankz for HotReload, assuming new class
+[2020.08.01-02.26.30:141][842]LogContentBrowser: Native class hierarchy updated for 'Tankz' in 0.0008 seconds. Added 2 classes and 2 folders.
+[2020.08.01-02.26.30:144][842]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.08.01-02.26.30:237][842]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 3438 classes and 828 folders.
+[2020.08.01-02.26.30:238][842]Display: HotReload took 39.1s.
+[2020.08.01-02.26.30:251][842]Warning: HotReload operation took 39.1s.
+[2020.08.01-02.26.30:340][842]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.08.01-02.26.30:350][842]LogHotReload: New module detected: UE4Editor-Tankz-7656.dll
+[2020.08.01-02.26.30:471][843]LogHotReload: Starting Hot-Reload from IDE
+[2020.08.01-02.26.30:592][843]LogContentBrowser: Native class hierarchy updated for 'Tankz' in 0.0006 seconds. Added 2 classes and 2 folders.
+[2020.08.01-02.26.30:594][843]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.08.01-02.26.30:620][843]LogContentBrowser: Native class hierarchy populated in 0.0160 seconds. Added 3438 classes and 828 folders.
+[2020.08.01-02.26.30:623][843]Display: HotReload took  0.2s.
+[2020.08.01-02.33.44:613][160]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.08.01-02.33.44:614][160]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.08.01-02.33.49:262][204]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.08.01-02.33.57:608][299]Candidate modules for hot reload:
+[2020.08.01-02.33.57:608][299]  Tankz
+[2020.08.01-02.33.57:609][299]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tankz,2315 TankzEditor Win64 Development -Project="C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject" "C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject"  -IgnoreJunk]
+[2020.08.01-02.34.15:196][299]CompilerResultsLog: New page: Compilation - Jul 31, 2020, 6:34:15 PM
+[2020.08.01-02.34.15:196][299]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2).
+[2020.08.01-02.34.15:196][299]CompilerResultsLog: Invalidating makefile for TankzEditor (source file added)
+[2020.08.01-02.34.15:196][299]CompilerResultsLog: Parsing headers for TankzEditor
+[2020.08.01-02.34.15:196][299]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Tankz.uproject" "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\TankzEditor\Development\TankzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Angelica .DESKTOP-RM5JOAJ\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.08.01-02.34.15:196][299]CompilerResultsLog: Error: C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Source/Tankz/BaseCharacter.h(29)  : Error: Unrecognized type 'UHealthComponent' - type must be a UCLASS, USTRUCT or UENUM
+[2020.08.01-02.34.15:196][299]LogMainFrame: MainFrame: Module compiling took 17.596 seconds
+[2020.08.01-02.34.15:197][299]Warning: HotReload failed, recompile failed
+[2020.08.01-02.34.15:197][299]Warning: RebindPackages failed because compilation failed.
+[2020.08.01-02.34.35:580][299]LogSlate: Window 'Message' being destroyed
+[2020.08.01-02.34.35:585][299]Message dialog closed, result: No, title: Message, text: Successfully added class 'Projectile', however you must recompile the 'Tankz' module before it will appear in the Content Browser. Failed to automatically hot reload the 'Tankz' module.
+
+Would you like to open the Output Log to see more details?
+[2020.08.01-02.34.35:585][299]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.08.01-02.39.57:126][300]Candidate modules for hot reload:
+[2020.08.01-02.39.57:126][300]  Tankz
+[2020.08.01-02.39.57:128][300]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tankz,7824 TankzEditor Win64 Development -Project="C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject" "C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject"  -IgnoreJunk]
+[2020.08.01-02.39.57:136][300]Warning: Starting HotReload took  0.1s.
+[2020.08.01-02.40.50:205][ 13]CompilerResultsLog: New page: Compilation - Jul 31, 2020, 6:40:50 PM
+[2020.08.01-02.40.50:205][ 13]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2).
+[2020.08.01-02.40.50:206][ 13]CompilerResultsLog: Invalidating makefile for TankzEditor (source file added)
+[2020.08.01-02.40.50:206][ 13]CompilerResultsLog: Parsing headers for TankzEditor
+[2020.08.01-02.40.50:206][ 13]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Tankz.uproject" "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\TankzEditor\Development\TankzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Angelica .DESKTOP-RM5JOAJ\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.08.01-02.40.50:206][ 13]CompilerResultsLog: Error: C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Source/Tankz/BaseCharacter.h(29)  : Error: Unrecognized type 'UHealthComponent' - type must be a UCLASS, USTRUCT or UENUM
+[2020.08.01-02.40.50:206][ 13]LogMainFrame: MainFrame: Module compiling took 53.150 seconds
+[2020.08.01-02.40.50:207][ 13]Warning: HotReload failed, recompile failed
+[2020.08.01-02.41.13:995][150]Candidate modules for hot reload:
+[2020.08.01-02.41.13:995][150]  Tankz
+[2020.08.01-02.41.13:997][150]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tankz,1600 TankzEditor Win64 Development -Project="C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject" "C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject"  -IgnoreJunk]
+[2020.08.01-02.41.14:007][150]Warning: Starting HotReload took  0.1s.
+[2020.08.01-02.41.43:415][533]CompilerResultsLog: New page: Compilation - Jul 31, 2020, 6:41:43 PM
+[2020.08.01-02.41.43:416][533]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2).
+[2020.08.01-02.41.43:416][533]CompilerResultsLog: Invalidating makefile for TankzEditor (source file added)
+[2020.08.01-02.41.43:416][533]CompilerResultsLog: Parsing headers for TankzEditor
+[2020.08.01-02.41.43:416][533]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Tankz.uproject" "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\TankzEditor\Development\TankzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Angelica .DESKTOP-RM5JOAJ\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.08.01-02.41.43:416][533]LogMainFrame: MainFrame: Module compiling took 29.491 seconds
+[2020.08.01-02.41.43:416][533]Warning: HotReload failed, recompile failed
+[2020.08.01-02.41.54:604][583]Candidate modules for hot reload:
+[2020.08.01-02.41.54:604][583]  Tankz
+[2020.08.01-02.41.54:605][583]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tankz,8307 TankzEditor Win64 Development -Project="C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject" "C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject"  -IgnoreJunk]
+[2020.08.01-02.41.54:617][583]Warning: Starting HotReload took  0.1s.
+[2020.08.01-02.43.18:010][656]CompilerResultsLog: New page: Compilation - Jul 31, 2020, 6:43:18 PM
+[2020.08.01-02.43.18:011][656]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2).
+[2020.08.01-02.43.18:011][656]CompilerResultsLog: Invalidating makefile for TankzEditor (source file added)
+[2020.08.01-02.43.18:011][656]CompilerResultsLog: Parsing headers for TankzEditor
+[2020.08.01-02.43.18:011][656]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Tankz.uproject" "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\TankzEditor\Development\TankzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Angelica .DESKTOP-RM5JOAJ\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.08.01-02.43.18:011][656]CompilerResultsLog: Reflection code generated for TankzEditor in 40.969627 seconds
+[2020.08.01-02.43.18:011][656]CompilerResultsLog: Building TankzEditor...
+[2020.08.01-02.43.18:012][656]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.08.01-02.43.18:012][656]CompilerResultsLog: Building 8 actions with 4 processes...
+[2020.08.01-02.43.18:012][656]CompilerResultsLog:   [1/8] BaseCharacter.cpp
+[2020.08.01-02.43.18:012][656]CompilerResultsLog:   C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Source\Tankz\BaseCharacter.cpp(5): fatal error C1083: Cannot open include file: 'AProjectile.h': No such file or directory
+[2020.08.01-02.43.18:012][656]CompilerResultsLog:   [2/8] Projectile.gen.cpp
+[2020.08.01-02.43.18:013][656]CompilerResultsLog:   [3/8] BaseCharacter.gen.cpp
+[2020.08.01-02.43.18:013][656]CompilerResultsLog:   [4/8] Projectile.cpp
+[2020.08.01-02.43.18:013][656]CompilerResultsLog:   [5/8] Tankz.init.gen.cpp
+[2020.08.01-02.43.18:013][656]LogMainFrame: MainFrame: Module compiling took 83.486 seconds
+[2020.08.01-02.43.18:013][656]Warning: HotReload failed, recompile failed
+[2020.08.01-02.43.58:129][ 21]Candidate modules for hot reload:
+[2020.08.01-02.43.58:130][ 21]  Tankz
+[2020.08.01-02.43.58:132][ 21]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tankz,1808 TankzEditor Win64 Development -Project="C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject" "C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject"  -IgnoreJunk]
+[2020.08.01-02.43.58:147][ 21]Warning: Starting HotReload took  0.1s.
+[2020.08.01-02.44.10:833][197]CompilerResultsLog: New page: Compilation - Jul 31, 2020, 6:44:10 PM
+[2020.08.01-02.44.10:833][197]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2).
+[2020.08.01-02.44.10:834][197]CompilerResultsLog: Building TankzEditor...
+[2020.08.01-02.44.10:834][197]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.08.01-02.44.10:834][197]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.08.01-02.44.10:834][197]CompilerResultsLog:   [1/4] BaseCharacter.cpp
+[2020.08.01-02.44.10:834][197]CompilerResultsLog:    C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Source\Tankz\BaseCharacter.cpp(42) : error C2653: 'UGameplayStatics': is not a class or namespace name
+[2020.08.01-02.44.10:834][197]CompilerResultsLog:    C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Source\Tankz\BaseCharacter.cpp(42) : error C3861: 'SpawnEmitterAtLocation': identifier not found
+[2020.08.01-02.44.10:834][197]CompilerResultsLog:    C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Source\Tankz\BaseCharacter.cpp(46) : error C2653: 'UGameplayStatics': is not a class or namespace name
+[2020.08.01-02.44.10:834][197]CompilerResultsLog:    C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Source\Tankz\BaseCharacter.cpp(46) : error C3861: 'PlaySoundAtLocation': identifier not found
+[2020.08.01-02.44.10:835][197]LogMainFrame: MainFrame: Module compiling took 12.785 seconds
+[2020.08.01-02.44.10:835][197]Warning: HotReload failed, recompile failed
+[2020.08.01-02.44.27:284][372]LogSlate: Window 'Message Log' being destroyed
+[2020.08.01-02.44.27:404][372]LogSlate: Window 'Message Log' being destroyed
+[2020.08.01-02.45.13:273][531]Candidate modules for hot reload:
+[2020.08.01-02.45.13:273][531]  Tankz
+[2020.08.01-02.45.13:274][531]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tankz,4403 TankzEditor Win64 Development -Project="C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject" "C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject"  -IgnoreJunk]
+[2020.08.01-02.45.13:285][531]Warning: Starting HotReload took  0.1s.
+[2020.08.01-02.45.38:212][864]CompilerResultsLog: New page: Compilation - Jul 31, 2020, 6:45:38 PM
+[2020.08.01-02.45.38:213][864]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2).
+[2020.08.01-02.45.38:213][864]CompilerResultsLog: Building TankzEditor...
+[2020.08.01-02.45.38:213][864]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.08.01-02.45.38:213][864]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.08.01-02.45.38:214][864]CompilerResultsLog:   [1/4] BaseCharacter.cpp
+[2020.08.01-02.45.38:214][864]CompilerResultsLog:   [2/4] UE4Editor-Tankz-4403.lib
+[2020.08.01-02.45.38:214][864]CompilerResultsLog:      Creating library C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-4403.lib and object C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-4403.exp
+[2020.08.01-02.45.38:214][864]CompilerResultsLog:   [3/4] UE4Editor-Tankz-4403.dll
+[2020.08.01-02.45.38:214][864]CompilerResultsLog:      Creating library C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-4403.suppressed.lib and object C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-4403.suppressed.exp
+[2020.08.01-02.45.38:214][864]CompilerResultsLog:   [4/4] TankzEditor.target
+[2020.08.01-02.45.38:214][864]CompilerResultsLog: Total time in Parallel executor: 16.21 seconds
+[2020.08.01-02.45.38:215][864]CompilerResultsLog: Total execution time: 24.25 seconds
+[2020.08.01-02.45.38:215][864]LogMainFrame: MainFrame: Module compiling took 25.014 seconds
+[2020.08.01-02.45.38:414][864]LogClass: Could not find existing class BaseCharacter in package /Script/Tankz for HotReload, assuming new class
+[2020.08.01-02.45.38:415][864]LogClass: Could not find existing class Projectile in package /Script/Tankz for HotReload, assuming new class
+[2020.08.01-02.45.38:415][864]LogClass: Function OnHit is new.
+[2020.08.01-02.45.38:448][864]LogHotReload: Re-instancing BaseCharacter after hot-reload.
+[2020.08.01-02.45.38:473][864]LogContentBrowser: Native class hierarchy updated for 'Tankz' in 0.0019 seconds. Added 3 classes and 2 folders.
+[2020.08.01-02.45.38:478][864]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.08.01-02.45.38:782][864]LogContentBrowser: Native class hierarchy populated in 0.0421 seconds. Added 3439 classes and 828 folders.
+[2020.08.01-02.45.38:783][864]Display: HotReload took 25.6s.
+[2020.08.01-02.45.49:370][914]LogSlate: Window 'Save Level As' being destroyed
+[2020.08.01-02.45.49:514][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Base" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Base.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.01-02.45.49:546][914]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.08.01-02.45.49:606][914]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Base9F8E83B3417E1DD83E36BBBE0689B951.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Base.umap'
+[2020.08.01-02.45.49:702][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Base_BuiltData" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Base_BuiltData.uasset" SILENT=true
+[2020.08.01-02.45.49:750][914]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Base_BuiltData3886FCBA497ECA801873B8AE78E0651D.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Base_BuiltData.uasset'
+[2020.08.01-02.45.49:770][914]LogFileHelpers: Saving map 'Base' took 0.389
+[2020.08.01-02.45.49:787][914]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.01-02.45.49:788][914]LogContentValidation: Display: Validating World /Game/Base.Base
+[2020.08.01-02.45.49:788][914]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Base_BuiltData.Base_BuiltData
+[2020.08.01-02.45.59:815][180]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2020.08.01-02.45.59:958][182]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.08.01-02.46.01:351][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.08.01-02.46.01:742][202]LogSlate: Window 'Tankz - Unreal Editor' being destroyed
+[2020.08.01-02.46.03:888][203]Cmd: QUIT_EDITOR
+[2020.08.01-02.46.03:888][203]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.08.01-02.46.04:126][203]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.08.01-02.46.04:254][203]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.01-02.46.04:308][203]LogExit: Preparing to exit.
+[2020.08.01-02.46.04:493][203]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.08.01-02.46.04:493][203]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.08.01-02.46.04:493][203]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.08.01-02.46.04:524][203]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.08.01-02.46.04:555][203]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.08.01-02.46.04:555][203]LogExit: Editor shut down
+[2020.08.01-02.46.04:559][203]LogExit: Transaction tracking system shut down
+[2020.08.01-02.46.04:879][203]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000002B0A8B302C0), frame # 17203
+[2020.08.01-02.46.04:879][203]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002B0AC277EC0), frame # 17203
+[2020.08.01-02.46.04:879][203]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002B0AC2D9E00), frame # 17203
+[2020.08.01-02.46.04:899][203]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002B09F4FE000), frame # 17203
+[2020.08.01-02.46.04:899][203]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002B09F5EE200), frame # 17203
+[2020.08.01-02.46.04:959][203]LogExit: Object subsystem successfully closed.
+[2020.08.01-02.46.04:998][203]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.08.01-02.46.05:108][203]LogModuleManager: Shutting down and abandoning module Tankz (805)
+[2020.08.01-02.46.05:108][203]LogModuleManager: Shutting down and abandoning module PinnedCommandList (802)
+[2020.08.01-02.46.05:109][203]LogModuleManager: Shutting down and abandoning module SkeletonEditor (800)
+[2020.08.01-02.46.05:109][203]LogModuleManager: Shutting down and abandoning module PhysicsAssetEditor (798)
+[2020.08.01-02.46.05:109][203]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (796)
+[2020.08.01-02.46.05:109][203]LogModuleManager: Shutting down and abandoning module SceneOutliner (794)
+[2020.08.01-02.46.05:109][203]LogModuleManager: Shutting down and abandoning module AddContentDialog (792)
+[2020.08.01-02.46.05:123][203]LogModuleManager: Shutting down and abandoning module WidgetCarousel (791)
+[2020.08.01-02.46.05:123][203]LogModuleManager: Shutting down and abandoning module EditorWidgets (788)
+[2020.08.01-02.46.05:124][203]LogModuleManager: Shutting down and abandoning module CollectionManager (786)
+[2020.08.01-02.46.05:124][203]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (784)
+[2020.08.01-02.46.05:124][203]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (782)
+[2020.08.01-02.46.05:124][203]LogModuleManager: Shutting down and abandoning module StatsViewer (780)
+[2020.08.01-02.46.05:124][203]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (778)
+[2020.08.01-02.46.05:124][203]LogModuleManager: Shutting down and abandoning module FoliageEdit (776)
+[2020.08.01-02.46.05:124][203]LogModuleManager: Shutting down and abandoning module LandscapeEditor (774)
+[2020.08.01-02.46.05:125][203]LogModuleManager: Shutting down and abandoning module MeshPaintMode (772)
+[2020.08.01-02.46.05:125][203]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (770)
+[2020.08.01-02.46.05:125][203]LogModuleManager: Shutting down and abandoning module ActorPickerMode (768)
+[2020.08.01-02.46.05:125][203]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (766)
+[2020.08.01-02.46.05:126][203]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (764)
+[2020.08.01-02.46.05:126][203]LogModuleManager: Shutting down and abandoning module AutomationWorker (762)
+[2020.08.01-02.46.05:126][203]LogModuleManager: Shutting down and abandoning module SteamVREditor (760)
+[2020.08.01-02.46.05:126][203]LogModuleManager: Shutting down and abandoning module OculusMR (758)
+[2020.08.01-02.46.05:126][203]LogModuleManager: Shutting down and abandoning module GooglePADEditor (756)
+[2020.08.01-02.46.05:126][203]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (754)
+[2020.08.01-02.46.05:126][203]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (752)
+[2020.08.01-02.46.05:126][203]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (750)
+[2020.08.01-02.46.05:126][203]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (748)
+[2020.08.01-02.46.05:126][203]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (746)
+[2020.08.01-02.46.05:126][203]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (744)
+[2020.08.01-02.46.05:126][203]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (742)
+[2020.08.01-02.46.05:126][203]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (740)
+[2020.08.01-02.46.05:126][203]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (738)
+[2020.08.01-02.46.05:127][203]LogModuleManager: Shutting down and abandoning module WebMMedia (736)
+[2020.08.01-02.46.05:127][203]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (734)
+[2020.08.01-02.46.05:127][203]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (732)
+[2020.08.01-02.46.05:127][203]LogModuleManager: Shutting down and abandoning module SequenceRecorder (731)
+[2020.08.01-02.46.05:127][203]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (728)
+[2020.08.01-02.46.05:127][203]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (726)
+[2020.08.01-02.46.05:127][203]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (724)
+[2020.08.01-02.46.05:127][203]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (722)
+[2020.08.01-02.46.05:127][203]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (720)
+[2020.08.01-02.46.05:127][203]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (718)
+[2020.08.01-02.46.05:127][203]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (716)
+[2020.08.01-02.46.05:127][203]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (714)
+[2020.08.01-02.46.05:127][203]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (712)
+[2020.08.01-02.46.05:127][203]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (710)
+[2020.08.01-02.46.05:127][203]LogModuleManager: Shutting down and abandoning module PlanarCut (708)
+[2020.08.01-02.46.05:127][203]LogModuleManager: Shutting down and abandoning module CharacterAI (706)
+[2020.08.01-02.46.05:128][203]LogModuleManager: Shutting down and abandoning module TextureAlignMode (704)
+[2020.08.01-02.46.05:128][203]LogModuleManager: Shutting down and abandoning module BspMode (702)
+[2020.08.01-02.46.05:128][203]LogModuleManager: Shutting down and abandoning module PlacementMode (701)
+[2020.08.01-02.46.05:128][203]LogModuleManager: Shutting down and abandoning module GeometryMode (698)
+[2020.08.01-02.46.05:128][203]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (696)
+[2020.08.01-02.46.05:128][203]LogModuleManager: Shutting down and abandoning module SmartSnapping (694)
+[2020.08.01-02.46.05:128][203]LogModuleManager: Shutting down and abandoning module SessionServices (692)
+[2020.08.01-02.46.05:128][203]LogModuleManager: Shutting down and abandoning module MeshPaint (690)
+[2020.08.01-02.46.05:128][203]LogModuleManager: Shutting down and abandoning module ViewportSnapping (688)
+[2020.08.01-02.46.05:128][203]LogModuleManager: Shutting down and abandoning module ViewportInteraction (686)
+[2020.08.01-02.46.05:128][203]LogModuleManager: Shutting down and abandoning module ClothPainter (684)
+[2020.08.01-02.46.05:128][203]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (683)
+[2020.08.01-02.46.05:128][203]LogModuleManager: Shutting down and abandoning module LogVisualizer (680)
+[2020.08.01-02.46.05:129][203]LogModuleManager: Shutting down and abandoning module IntroTutorials (678)
+[2020.08.01-02.46.05:129][203]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (677)
+[2020.08.01-02.46.05:129][203]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (674)
+[2020.08.01-02.46.05:129][203]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (672)
+[2020.08.01-02.46.05:129][203]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (670)
+[2020.08.01-02.46.05:129][203]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (669)
+[2020.08.01-02.46.06:855][203]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (666)
+[2020.08.01-02.46.06:855][203]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (664)
+[2020.08.01-02.46.06:855][203]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (662)
+[2020.08.01-02.46.06:855][203]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (660)
+[2020.08.01-02.46.06:855][203]LogModuleManager: Shutting down and abandoning module TraceInsights (658)
+[2020.08.01-02.46.06:856][203]LogModuleManager: Shutting down and abandoning module TraceServices (657)
+[2020.08.01-02.46.06:856][203]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (654)
+[2020.08.01-02.46.06:856][203]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (652)
+[2020.08.01-02.46.06:856][203]LogModuleManager: Shutting down and abandoning module InputBindingEditor (650)
+[2020.08.01-02.46.06:856][203]LogModuleManager: Shutting down and abandoning module MergeActors (648)
+[2020.08.01-02.46.06:856][203]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (646)
+[2020.08.01-02.46.06:856][203]LogModuleManager: Shutting down and abandoning module LocalizationService (645)
+[2020.08.01-02.46.06:856][203]LogModuleManager: Shutting down and abandoning module HardwareTargeting (642)
+[2020.08.01-02.46.06:856][203]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (640)
+[2020.08.01-02.46.06:856][203]LogModuleManager: Shutting down and abandoning module UndoHistory (638)
+[2020.08.01-02.46.06:856][203]LogModuleManager: Shutting down and abandoning module XmlParser (636)
+[2020.08.01-02.46.06:856][203]LogModuleManager: Shutting down and abandoning module Blutility (634)
+[2020.08.01-02.46.06:857][203]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (632)
+[2020.08.01-02.46.06:857][203]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (631)
+[2020.08.01-02.46.06:857][203]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (628)
+[2020.08.01-02.46.06:858][203]LogModuleManager: Shutting down and abandoning module SettingsEditor (626)
+[2020.08.01-02.46.06:858][203]LogModuleManager: Shutting down and abandoning module ProjectLauncher (624)
+[2020.08.01-02.46.06:858][203]LogModuleManager: Shutting down and abandoning module SessionFrontend (622)
+[2020.08.01-02.46.06:858][203]LogModuleManager: Shutting down and abandoning module ProfilerClient (620)
+[2020.08.01-02.46.06:858][203]LogModuleManager: Shutting down and abandoning module DeviceManager (618)
+[2020.08.01-02.46.06:858][203]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (617)
+[2020.08.01-02.46.06:892][203]LogModuleManager: Shutting down and abandoning module AutomationController (614)
+[2020.08.01-02.46.06:892][203]LogModuleManager: Shutting down and abandoning module AutomationWindow (612)
+[2020.08.01-02.46.06:892][203]LogModuleManager: Shutting down and abandoning module Layers (610)
+[2020.08.01-02.46.06:892][203]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (608)
+[2020.08.01-02.46.06:892][203]LogModuleManager: Shutting down and abandoning module DetailCustomizations (606)
+[2020.08.01-02.46.06:892][203]LogModuleManager: Shutting down and abandoning module PackagesDialog (604)
+[2020.08.01-02.46.06:892][203]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (602)
+[2020.08.01-02.46.06:892][203]LogModuleManager: Shutting down and abandoning module Persona (600)
+[2020.08.01-02.46.06:893][203]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (599)
+[2020.08.01-02.46.06:893][203]LogModuleManager: Shutting down and abandoning module AnimGraph (597)
+[2020.08.01-02.46.06:893][203]LogModuleManager: Shutting down and abandoning module Kismet (594)
+[2020.08.01-02.46.06:893][203]LogModuleManager: Shutting down and abandoning module KismetWidgets (593)
+[2020.08.01-02.46.06:893][203]LogModuleManager: Shutting down and abandoning module GraphEditor (590)
+[2020.08.01-02.46.06:894][203]LogModuleManager: Shutting down and abandoning module StructViewer (588)
+[2020.08.01-02.46.06:894][203]LogModuleManager: Shutting down and abandoning module ClassViewer (586)
+[2020.08.01-02.46.06:897][203]LogModuleManager: Shutting down and abandoning module Toolbox (584)
+[2020.08.01-02.46.06:897][203]LogModuleManager: Shutting down and abandoning module ModuleUI (582)
+[2020.08.01-02.46.06:897][203]LogModuleManager: Shutting down and abandoning module OutputLog (580)
+[2020.08.01-02.46.06:898][203]LogModuleManager: Shutting down and abandoning module GammaUI (578)
+[2020.08.01-02.46.06:898][203]LogModuleManager: Shutting down and abandoning module Documentation (576)
+[2020.08.01-02.46.06:898][203]LogModuleManager: Shutting down and abandoning module LiveCoding (574)
+[2020.08.01-02.46.06:898][203]LogModuleManager: Shutting down and abandoning module LevelSequence (572)
+[2020.08.01-02.46.06:898][203]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (570)
+[2020.08.01-02.46.06:898][203]LogModuleManager: Shutting down and abandoning module MovieScene (568)
+[2020.08.01-02.46.06:898][203]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (566)
+[2020.08.01-02.46.06:899][203]LogModuleManager: Shutting down and abandoning module LauncherPlatform (564)
+[2020.08.01-02.46.06:899][203]LogModuleManager: Shutting down and abandoning module AnalyticsET (562)
+[2020.08.01-02.46.06:899][203]LogModuleManager: Shutting down and abandoning module PortalServices (560)
+[2020.08.01-02.46.06:899][203]LogModuleManager: Shutting down and abandoning module PortalRpc (558)
+[2020.08.01-02.46.06:899][203]LogModuleManager: Shutting down and abandoning module MessagingRpc (556)
+[2020.08.01-02.46.06:899][203]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (554)
+[2020.08.01-02.46.06:899][203]LogModuleManager: Shutting down and abandoning module AudioMixerCore (553)
+[2020.08.01-02.46.06:899][203]LogModuleManager: Shutting down and abandoning module AIModule (550)
+[2020.08.01-02.46.06:899][203]LogModuleManager: Shutting down and abandoning module GameplayDebugger (549)
+[2020.08.01-02.46.06:899][203]LogModuleManager: Shutting down and abandoning module AITestSuite (547)
+[2020.08.01-02.46.06:899][203]LogModuleManager: Shutting down and abandoning module NavigationSystem (545)
+[2020.08.01-02.46.06:899][203]LogModuleManager: Shutting down and abandoning module ProfilerService (542)
+[2020.08.01-02.46.06:931][203]LogModuleManager: Shutting down and abandoning module TaskGraph (540)
+[2020.08.01-02.46.06:931][203]LogModuleManager: Shutting down and abandoning module ScreenshotTools (538)
+[2020.08.01-02.46.06:931][203]LogModuleManager: Shutting down and abandoning module SynthesisEditor (536)
+[2020.08.01-02.46.06:931][203]LogModuleManager: Shutting down and abandoning module Synthesis (534)
+[2020.08.01-02.46.06:932][203]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (532)
+[2020.08.01-02.46.06:932][203]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (530)
+[2020.08.01-02.46.06:932][203]LogModuleManager: Shutting down and abandoning module OculusEditor (528)
+[2020.08.01-02.46.06:932][203]LogModuleManager: Shutting down and abandoning module OculusInput (526)
+[2020.08.01-02.46.06:932][203]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (524)
+[2020.08.01-02.46.06:932][203]LogModuleManager: Shutting down and abandoning module GooglePAD (522)
+[2020.08.01-02.46.06:932][203]LogModuleManager: Shutting down and abandoning module EditableMesh (520)
+[2020.08.01-02.46.06:932][203]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (518)
+[2020.08.01-02.46.06:932][203]LogModuleManager: Shutting down and abandoning module CableComponent (516)
+[2020.08.01-02.46.06:932][203]LogModuleManager: Shutting down and abandoning module AudioCapture (514)
+[2020.08.01-02.46.06:932][203]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (513)
+[2020.08.01-02.46.06:932][203]LogModuleManager: Shutting down and abandoning module AssetTags (510)
+[2020.08.01-02.46.06:932][203]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (508)
+[2020.08.01-02.46.06:932][203]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (506)
+[2020.08.01-02.46.06:932][203]LogModuleManager: Shutting down and abandoning module AppleImageUtils (504)
+[2020.08.01-02.46.06:932][203]LogModuleManager: Shutting down and abandoning module AndroidPermission (502)
+[2020.08.01-02.46.06:932][203]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (500)
+[2020.08.01-02.46.06:932][203]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (498)
+[2020.08.01-02.46.06:932][203]LogModuleManager: Shutting down and abandoning module TemplateSequence (496)
+[2020.08.01-02.46.06:932][203]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (494)
+[2020.08.01-02.46.06:932][203]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (492)
+[2020.08.01-02.46.06:933][203]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (490)
+[2020.08.01-02.46.06:933][203]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (488)
+[2020.08.01-02.46.06:933][203]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (487)
+[2020.08.01-02.46.06:936][203]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (484)
+[2020.08.01-02.46.06:936][203]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (482)
+[2020.08.01-02.46.06:936][203]LogModuleManager: Shutting down and abandoning module MediaCompositing (480)
+[2020.08.01-02.46.06:936][203]LogModuleManager: Shutting down and abandoning module ImgMedia (478)
+[2020.08.01-02.46.06:936][203]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (476)
+[2020.08.01-02.46.06:936][203]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (474)
+[2020.08.01-02.46.06:936][203]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (472)
+[2020.08.01-02.46.06:937][203]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (470)
+[2020.08.01-02.46.06:937][203]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (468)
+[2020.08.01-02.46.06:937][203]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (466)
+[2020.08.01-02.46.06:937][203]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (464)
+[2020.08.01-02.46.06:937][203]LogModuleManager: Shutting down and abandoning module MeshConversion (462)
+[2020.08.01-02.46.06:937][203]LogModuleManager: Shutting down and abandoning module DynamicMesh (460)
+[2020.08.01-02.46.06:937][203]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (458)
+[2020.08.01-02.46.06:937][203]LogModuleManager: Shutting down and abandoning module GeometricObjects (456)
+[2020.08.01-02.46.06:937][203]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (454)
+[2020.08.01-02.46.06:937][203]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (453)
+[2020.08.01-02.46.06:937][203]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (450)
+[2020.08.01-02.46.06:937][203]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (448)
+[2020.08.01-02.46.06:937][203]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (446)
+[2020.08.01-02.46.06:937][203]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (444)
+[2020.08.01-02.46.06:937][203]LogModuleManager: Shutting down and abandoning module ChaosNiagara (442)
+[2020.08.01-02.46.06:937][203]LogModuleManager: Shutting down and abandoning module FractureEditor (440)
+[2020.08.01-02.46.06:937][203]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (438)
+[2020.08.01-02.46.06:938][203]LogModuleManager: Shutting down and abandoning module ChaosCloth (436)
+[2020.08.01-02.46.06:938][203]LogModuleManager: Shutting down and abandoning module BackChannel (434)
+[2020.08.01-02.46.06:938][203]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (432)
+[2020.08.01-02.46.06:938][203]LogModuleManager: Shutting down and abandoning module AutomationUtils (430)
+[2020.08.01-02.46.06:938][203]LogModuleManager: Shutting down and abandoning module AlembicImporter (428)
+[2020.08.01-02.46.06:938][203]LogModuleManager: Shutting down and abandoning module AlembicLibrary (427)
+[2020.08.01-02.46.06:938][203]LogModuleManager: Shutting down and abandoning module GeometryCache (426)
+[2020.08.01-02.46.06:938][203]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (425)
+[2020.08.01-02.46.06:938][203]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (420)
+[2020.08.01-02.46.06:938][203]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (418)
+[2020.08.01-02.46.06:938][203]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (416)
+[2020.08.01-02.46.06:938][203]LogModuleManager: Shutting down and abandoning module PluginBrowser (414)
+[2020.08.01-02.46.06:938][203]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (412)
+[2020.08.01-02.46.06:938][203]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (410)
+[2020.08.01-02.46.06:938][203]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (408)
+[2020.08.01-02.46.06:938][203]LogModuleManager: Shutting down and abandoning module CurveEditorTools (406)
+[2020.08.01-02.46.06:939][203]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (404)
+[2020.08.01-02.46.06:939][203]LogModuleManager: Shutting down and abandoning module CryptoKeys (402)
+[2020.08.01-02.46.06:939][203]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (400)
+[2020.08.01-02.46.06:939][203]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (398)
+[2020.08.01-02.46.06:939][203]LogModuleManager: Shutting down and abandoning module UObjectPlugin (396)
+[2020.08.01-02.46.06:939][203]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (394)
+[2020.08.01-02.46.06:939][203]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (392)
+[2020.08.01-02.46.06:939][203]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (390)
+[2020.08.01-02.46.06:939][203]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (388)
+[2020.08.01-02.46.06:939][203]LogModuleManager: Shutting down and abandoning module GitSourceControl (386)
+[2020.08.01-02.46.06:939][203]LogModuleManager: Shutting down and abandoning module SourceControl (385)
+[2020.08.01-02.46.06:939][203]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (382)
+[2020.08.01-02.46.06:939][203]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (380)
+[2020.08.01-02.46.06:939][203]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (378)
+[2020.08.01-02.46.06:939][203]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (376)
+[2020.08.01-02.46.06:940][203]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (374)
+[2020.08.01-02.46.06:940][203]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (372)
+[2020.08.01-02.46.06:940][203]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (370)
+[2020.08.01-02.46.06:940][203]LogModuleManager: Shutting down and abandoning module Paper2DEditor (368)
+[2020.08.01-02.46.06:940][203]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2020.08.01-02.46.06:940][203]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2020.08.01-02.46.06:940][203]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2020.08.01-02.46.06:940][203]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2020.08.01-02.46.06:940][203]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2020.08.01-02.46.06:940][203]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2020.08.01-02.46.06:940][203]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2020.08.01-02.46.07:041][203]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2020.08.01-02.46.07:141][203]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2020.08.01-02.46.07:141][203]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2020.08.01-02.46.07:141][203]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2020.08.01-02.46.07:141][203]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2020.08.01-02.46.07:141][203]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2020.08.01-02.46.07:141][203]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.08.01-02.46.07:142][203]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2020.08.01-02.46.07:142][203]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2020.08.01-02.46.07:142][203]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2020.08.01-02.46.07:142][203]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2020.08.01-02.46.07:142][203]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2020.08.01-02.46.07:142][203]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.08.01-02.46.07:142][203]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2020.08.01-02.46.07:142][203]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2020.08.01-02.46.07:143][203]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2020.08.01-02.46.07:143][203]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2020.08.01-02.46.07:143][203]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2020.08.01-02.46.07:143][203]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2020.08.01-02.46.07:143][203]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2020.08.01-02.46.07:143][203]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2020.08.01-02.46.07:143][203]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2020.08.01-02.46.07:144][203]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2020.08.01-02.46.07:144][203]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2020.08.01-02.46.07:144][203]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2020.08.01-02.46.07:145][203]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2020.08.01-02.46.07:145][203]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2020.08.01-02.46.07:148][203]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2020.08.01-02.46.07:148][203]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2020.08.01-02.46.07:149][203]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2020.08.01-02.46.07:149][203]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2020.08.01-02.46.07:150][203]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2020.08.01-02.46.07:150][203]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2020.08.01-02.46.07:150][203]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2020.08.01-02.46.07:150][203]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2020.08.01-02.46.07:150][203]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2020.08.01-02.46.07:150][203]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2020.08.01-02.46.07:164][203]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2020.08.01-02.46.07:164][203]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2020.08.01-02.46.07:164][203]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2020.08.01-02.46.07:164][203]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2020.08.01-02.46.07:164][203]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2020.08.01-02.46.07:164][203]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2020.08.01-02.46.07:164][203]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2020.08.01-02.46.07:164][203]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2020.08.01-02.46.07:164][203]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2020.08.01-02.46.07:165][203]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2020.08.01-02.46.07:165][203]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2020.08.01-02.46.07:165][203]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2020.08.01-02.46.07:165][203]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2020.08.01-02.46.07:165][203]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2020.08.01-02.46.07:165][203]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2020.08.01-02.46.07:165][203]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2020.08.01-02.46.07:165][203]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2020.08.01-02.46.07:165][203]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2020.08.01-02.46.07:165][203]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2020.08.01-02.46.07:167][203]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2020.08.01-02.46.07:168][203]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2020.08.01-02.46.07:168][203]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2020.08.01-02.46.07:168][203]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2020.08.01-02.46.07:168][203]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2020.08.01-02.46.07:168][203]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2020.08.01-02.46.07:168][203]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2020.08.01-02.46.07:168][203]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2020.08.01-02.46.07:168][203]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2020.08.01-02.46.07:168][203]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2020.08.01-02.46.07:168][203]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2020.08.01-02.46.07:168][203]LogModuleManager: Shutting down and abandoning module Core (216)
+[2020.08.01-02.46.07:168][203]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2020.08.01-02.46.07:168][203]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2020.08.01-02.46.07:169][203]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2020.08.01-02.46.07:169][203]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2020.08.01-02.46.07:172][203]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2020.08.01-02.46.07:172][203]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2020.08.01-02.46.07:172][203]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2020.08.01-02.46.07:172][203]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2020.08.01-02.46.07:172][203]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2020.08.01-02.46.07:172][203]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2020.08.01-02.46.07:173][203]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2020.08.01-02.46.07:173][203]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2020.08.01-02.46.07:173][203]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2020.08.01-02.46.07:173][203]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2020.08.01-02.46.07:173][203]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2020.08.01-02.46.07:173][203]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2020.08.01-02.46.07:173][203]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2020.08.01-02.46.07:173][203]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2020.08.01-02.46.07:174][203]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2020.08.01-02.46.07:174][203]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2020.08.01-02.46.07:174][203]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2020.08.01-02.46.07:174][203]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2020.08.01-02.46.07:174][203]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2020.08.01-02.46.07:174][203]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2020.08.01-02.46.07:174][203]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2020.08.01-02.46.07:174][203]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2020.08.01-02.46.07:174][203]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2020.08.01-02.46.07:174][203]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2020.08.01-02.46.07:174][203]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2020.08.01-02.46.07:174][203]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2020.08.01-02.46.07:174][203]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2020.08.01-02.46.07:174][203]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2020.08.01-02.46.07:175][203]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2020.08.01-02.46.07:175][203]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2020.08.01-02.46.07:175][203]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2020.08.01-02.46.07:175][203]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2020.08.01-02.46.07:175][203]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2020.08.01-02.46.07:175][203]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2020.08.01-02.46.07:182][203]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2020.08.01-02.46.07:191][203]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2020.08.01-02.46.07:191][203]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2020.08.01-02.46.07:191][203]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2020.08.01-02.46.07:191][203]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2020.08.01-02.46.07:191][203]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2020.08.01-02.46.07:191][203]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2020.08.01-02.46.07:191][203]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2020.08.01-02.46.07:191][203]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2020.08.01-02.46.07:191][203]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2020.08.01-02.46.07:198][203]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2020.08.01-02.46.07:234][203]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2020.08.01-02.46.07:234][203]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2020.08.01-02.46.07:234][203]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2020.08.01-02.46.07:234][203]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2020.08.01-02.46.07:236][203]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2020.08.01-02.46.07:236][203]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2020.08.01-02.46.07:236][203]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2020.08.01-02.46.07:236][203]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2020.08.01-02.46.07:236][203]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2020.08.01-02.46.07:236][203]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2020.08.01-02.46.07:236][203]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2020.08.01-02.46.07:236][203]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2020.08.01-02.46.07:236][203]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2020.08.01-02.46.07:236][203]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2020.08.01-02.46.07:236][203]LogHMD: Freeing OpenVRDLLHandle.
+[2020.08.01-02.46.07:236][203]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2020.08.01-02.46.07:236][203]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2020.08.01-02.46.07:236][203]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2020.08.01-02.46.07:236][203]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2020.08.01-02.46.07:236][203]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2020.08.01-02.46.07:238][203]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.08.01-02.46.07:238][203]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.08.01-02.46.07:267][203]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.08.01-02.46.07:267][203]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.08.01-02.46.07:267][203]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEB9EB841-4A3A-DA44-FDA0-B6953E46AC87%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=023a58934bb7660ad3be938b62c9e3bf%7Ca6913804a3984dc4b1a26f3e7b9281dc%7C8b70d36b-ffd7-4693-b8e2-b42a2c7f141a&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.08.01-02.46.07:276][203]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.08.01-02.46.07:280][203]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.08.01-02.46.07:283][203]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.08.01-02.46.07:285][203]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.08.01-02.46.07:285][203]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.08.01-02.46.07:285][203]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.08.01-02.46.07:285][203]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.08.01-02.46.07:285][203]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.08.01-02.46.07:285][203]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.08.01-02.46.07:285][203]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.08.01-02.46.07:286][203]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.08.01-02.46.07:286][203]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.08.01-02.46.07:286][203]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.08.01-02.46.07:286][203]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.08.01-02.46.07:286][203]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.08.01-02.46.07:286][203]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.08.01-02.46.07:287][203]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.08.01-02.46.07:287][203]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.08.01-02.46.07:287][203]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.08.01-02.46.07:287][203]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.08.01-02.46.07:288][203]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.08.01-02.46.07:288][203]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.08.01-02.46.07:288][203]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.08.01-02.46.07:288][203]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.08.01-02.46.07:289][203]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.08.01-02.46.07:289][203]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.08.01-02.46.07:289][203]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.08.01-02.46.07:289][203]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.08.01-02.46.07:289][203]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.08.01-02.46.07:289][203]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.08.01-02.46.07:289][203]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.08.01-02.46.07:289][203]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.08.01-02.46.07:289][203]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.08.01-02.46.07:403][203]LogD3D11RHI: Shutdown
+[2020.08.01-02.46.07:403][203]LogD3D11RHI: CleanupD3DDevice
+[2020.08.01-02.46.07:472][203]LogExit: Exiting.
+[2020.08.01-02.46.07:524][203]Log file closed, 07/31/20 22:46:07

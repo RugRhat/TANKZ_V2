@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Tankz.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{492773EF-1311-46B2-88BF-AAC903ACE408}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Tankz.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TankzEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{E45AD19C-3C32-491F-94A4-8D5C5F69972B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Tankz">
+      <UniqueIdentifier>{62A2DE75-ED0A-4414-8937-F26F0DAAB44E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Tankz\Tankz.Build.cs">
+      <Filter>Source\Tankz</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Tankz\Tankz.cpp">
+      <Filter>Source\Tankz</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tankz\Tankz.h">
+      <Filter>Source\Tankz</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tankz\TankzGameModeBase.cpp">
+      <Filter>Source\Tankz</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tankz\TankzGameModeBase.h">
+      <Filter>Source\Tankz</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
