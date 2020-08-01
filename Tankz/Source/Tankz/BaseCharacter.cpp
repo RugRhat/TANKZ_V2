@@ -2,6 +2,7 @@
 
 
 #include "BaseCharacter.h"
+#include "HealthComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "Projectile.h"
 
@@ -15,7 +16,7 @@ ABaseCharacter::ABaseCharacter()
 	ProjectileSpawnPoint = CreateDefaultSubobject<USceneComponent>(TEXT("Projectile Spawn Point"));
 	ProjectileSpawnPoint->SetupAttachment(RootComponent);
 
-	// HealthComponent = CreateDefaultSubobject<UHealthComponent>(TEXT("Health Component"));
+	HealthComponent = CreateDefaultSubobject<UHealthComponent>(TEXT("Health Component"));
 }
 
 

@@ -60,6 +60,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABaseCharacter); \
 
 #define Tankz_Source_Tankz_BaseCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__ProjectileSpawnPoint() { return STRUCT_OFFSET(ABaseCharacter, ProjectileSpawnPoint); } \
+	FORCEINLINE static uint32 __PPO__HealthComponent() { return STRUCT_OFFSET(ABaseCharacter, HealthComponent); } \
 	FORCEINLINE static uint32 __PPO__ProjectileClass() { return STRUCT_OFFSET(ABaseCharacter, ProjectileClass); } \
 	FORCEINLINE static uint32 __PPO__DeathParticle() { return STRUCT_OFFSET(ABaseCharacter, DeathParticle); } \
 	FORCEINLINE static uint32 __PPO__DeathSound() { return STRUCT_OFFSET(ABaseCharacter, DeathSound); } \

@@ -2,11 +2,22 @@
 
 
 #include "EnemyCharacter.h"
+#include "Kismet/GameplayStatics.h"
+#include "Tank.h"
 
 
 void AEnemyCharacter::BeginPlay() 
 {
     Super::BeginPlay();
+
+    PlayerTank = Cast<ATank>(UGameplayStatics::GetPlayerPawn(this, 0));
+}
+
+void AEnemyCharacter::Fire() 
+{
+    if(GetPlayerAlive() && PlayerTank->GetPlayerAlive()){
+        Super::Fire();
+    }
 }
 
 

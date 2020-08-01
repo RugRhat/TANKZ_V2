@@ -40,7 +40,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "EnemyCharacter.h" },
 		{ "ModuleRelativePath", "EnemyCharacter.h" },
@@ -73,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyCharacter, 3394132472);
+	IMPLEMENT_CLASS(AEnemyCharacter, 3724047858);
 	template<> TANKZ_API UClass* StaticClass<AEnemyCharacter>()
 	{
 		return AEnemyCharacter::StaticClass();

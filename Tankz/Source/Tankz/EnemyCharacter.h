@@ -6,9 +6,8 @@
 #include "BaseCharacter.h"
 #include "EnemyCharacter.generated.h"
 
-/**
- * 
- */
+class ATank;
+
 UCLASS()
 class TANKZ_API AEnemyCharacter : public ABaseCharacter
 {
@@ -18,14 +17,19 @@ public:
 
 	bool GetPlayerAlive();
 
+	virtual void Fire() override;
+
 private:
 
 	bool bAlive = true;
+
+	ATank* PlayerTank;
 
 protected:
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
 
 	virtual void HandleDestruction() override;
 

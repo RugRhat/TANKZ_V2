@@ -7,7 +7,7 @@
 #include "BaseCharacter.generated.h"
 
 class AProjectile;
-// class UHealthComponent;
+class UHealthComponent;
 
 UCLASS()
 class TANKZ_API ABaseCharacter : public ACharacter
@@ -15,10 +15,11 @@ class TANKZ_API ABaseCharacter : public ACharacter
 	GENERATED_BODY()
 
 public:
+
 	// Sets default values for this character's properties
 	ABaseCharacter();
 
-	void Fire();
+	virtual void Fire();
 
 	void CharDestroyed();
 
@@ -27,8 +28,8 @@ private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 	USceneComponent* ProjectileSpawnPoint;
 
-	// UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
-	// UHealthComponent* HealthComponent;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
+	UHealthComponent* HealthComponent;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Projectile Type", meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<AProjectile> ProjectileClass;

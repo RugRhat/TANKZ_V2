@@ -13,10 +13,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TANKZ_TankzGameModeBase_generated_h
 
-#define Tankz_Source_Tankz_TankzGameModeBase_h_15_SPARSE_DATA
-#define Tankz_Source_Tankz_TankzGameModeBase_h_15_RPC_WRAPPERS
-#define Tankz_Source_Tankz_TankzGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define Tankz_Source_Tankz_TankzGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+#define Tankz_Source_Tankz_TankzGameModeBase_h_16_SPARSE_DATA
+#define Tankz_Source_Tankz_TankzGameModeBase_h_16_RPC_WRAPPERS
+#define Tankz_Source_Tankz_TankzGameModeBase_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define Tankz_Source_Tankz_TankzGameModeBase_h_16_EVENT_PARMS \
+	struct TankzGameModeBase_eventGameOver_Parms \
+	{ \
+		bool PlayerWon; \
+	};
+
+
+#define Tankz_Source_Tankz_TankzGameModeBase_h_16_CALLBACK_WRAPPERS
+#define Tankz_Source_Tankz_TankzGameModeBase_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATankzGameModeBase(); \
 	friend struct Z_Construct_UClass_ATankzGameModeBase_Statics; \
@@ -25,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(ATankzGameModeBase)
 
 
-#define Tankz_Source_Tankz_TankzGameModeBase_h_15_INCLASS \
+#define Tankz_Source_Tankz_TankzGameModeBase_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesATankzGameModeBase(); \
 	friend struct Z_Construct_UClass_ATankzGameModeBase_Statics; \
@@ -34,7 +42,7 @@ public: \
 	DECLARE_SERIALIZER(ATankzGameModeBase)
 
 
-#define Tankz_Source_Tankz_TankzGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+#define Tankz_Source_Tankz_TankzGameModeBase_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATankzGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATankzGameModeBase) \
@@ -47,7 +55,7 @@ private: \
 public:
 
 
-#define Tankz_Source_Tankz_TankzGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+#define Tankz_Source_Tankz_TankzGameModeBase_h_16_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATankzGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,28 +68,37 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATankzGameModeBase); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATankzGameModeBase)
 
 
-#define Tankz_Source_Tankz_TankzGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
-#define Tankz_Source_Tankz_TankzGameModeBase_h_12_PROLOG
-#define Tankz_Source_Tankz_TankzGameModeBase_h_15_GENERATED_BODY_LEGACY \
+#define Tankz_Source_Tankz_TankzGameModeBase_h_16_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__PlayerTank() { return STRUCT_OFFSET(ATankzGameModeBase, PlayerTank); } \
+	FORCEINLINE static uint32 __PPO__StartDelay() { return STRUCT_OFFSET(ATankzGameModeBase, StartDelay); }
+
+
+#define Tankz_Source_Tankz_TankzGameModeBase_h_13_PROLOG \
+	Tankz_Source_Tankz_TankzGameModeBase_h_16_EVENT_PARMS
+
+
+#define Tankz_Source_Tankz_TankzGameModeBase_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Tankz_Source_Tankz_TankzGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	Tankz_Source_Tankz_TankzGameModeBase_h_15_SPARSE_DATA \
-	Tankz_Source_Tankz_TankzGameModeBase_h_15_RPC_WRAPPERS \
-	Tankz_Source_Tankz_TankzGameModeBase_h_15_INCLASS \
-	Tankz_Source_Tankz_TankzGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+	Tankz_Source_Tankz_TankzGameModeBase_h_16_PRIVATE_PROPERTY_OFFSET \
+	Tankz_Source_Tankz_TankzGameModeBase_h_16_SPARSE_DATA \
+	Tankz_Source_Tankz_TankzGameModeBase_h_16_RPC_WRAPPERS \
+	Tankz_Source_Tankz_TankzGameModeBase_h_16_CALLBACK_WRAPPERS \
+	Tankz_Source_Tankz_TankzGameModeBase_h_16_INCLASS \
+	Tankz_Source_Tankz_TankzGameModeBase_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Tankz_Source_Tankz_TankzGameModeBase_h_15_GENERATED_BODY \
+#define Tankz_Source_Tankz_TankzGameModeBase_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Tankz_Source_Tankz_TankzGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	Tankz_Source_Tankz_TankzGameModeBase_h_15_SPARSE_DATA \
-	Tankz_Source_Tankz_TankzGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Tankz_Source_Tankz_TankzGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
-	Tankz_Source_Tankz_TankzGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+	Tankz_Source_Tankz_TankzGameModeBase_h_16_PRIVATE_PROPERTY_OFFSET \
+	Tankz_Source_Tankz_TankzGameModeBase_h_16_SPARSE_DATA \
+	Tankz_Source_Tankz_TankzGameModeBase_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	Tankz_Source_Tankz_TankzGameModeBase_h_16_CALLBACK_WRAPPERS \
+	Tankz_Source_Tankz_TankzGameModeBase_h_16_INCLASS_NO_PURE_DECLS \
+	Tankz_Source_Tankz_TankzGameModeBase_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

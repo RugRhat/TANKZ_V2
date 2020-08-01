@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TANKZ_EnemyCharacter_generated_h
 
-#define Tankz_Source_Tankz_EnemyCharacter_h_15_SPARSE_DATA
-#define Tankz_Source_Tankz_EnemyCharacter_h_15_RPC_WRAPPERS
-#define Tankz_Source_Tankz_EnemyCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define Tankz_Source_Tankz_EnemyCharacter_h_15_INCLASS_NO_PURE_DECLS \
+#define Tankz_Source_Tankz_EnemyCharacter_h_14_SPARSE_DATA
+#define Tankz_Source_Tankz_EnemyCharacter_h_14_RPC_WRAPPERS
+#define Tankz_Source_Tankz_EnemyCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define Tankz_Source_Tankz_EnemyCharacter_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAEnemyCharacter(); \
 	friend struct Z_Construct_UClass_AEnemyCharacter_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AEnemyCharacter)
 
 
-#define Tankz_Source_Tankz_EnemyCharacter_h_15_INCLASS \
+#define Tankz_Source_Tankz_EnemyCharacter_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAEnemyCharacter(); \
 	friend struct Z_Construct_UClass_AEnemyCharacter_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AEnemyCharacter)
 
 
-#define Tankz_Source_Tankz_EnemyCharacter_h_15_STANDARD_CONSTRUCTORS \
+#define Tankz_Source_Tankz_EnemyCharacter_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AEnemyCharacter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEnemyCharacter) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Tankz_Source_Tankz_EnemyCharacter_h_15_ENHANCED_CONSTRUCTORS \
+#define Tankz_Source_Tankz_EnemyCharacter_h_14_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AEnemyCharacter() { }; \
 private: \
@@ -60,28 +60,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemyCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AEnemyCharacter)
 
 
-#define Tankz_Source_Tankz_EnemyCharacter_h_15_PRIVATE_PROPERTY_OFFSET
-#define Tankz_Source_Tankz_EnemyCharacter_h_12_PROLOG
-#define Tankz_Source_Tankz_EnemyCharacter_h_15_GENERATED_BODY_LEGACY \
+#define Tankz_Source_Tankz_EnemyCharacter_h_14_PRIVATE_PROPERTY_OFFSET
+#define Tankz_Source_Tankz_EnemyCharacter_h_11_PROLOG
+#define Tankz_Source_Tankz_EnemyCharacter_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Tankz_Source_Tankz_EnemyCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
-	Tankz_Source_Tankz_EnemyCharacter_h_15_SPARSE_DATA \
-	Tankz_Source_Tankz_EnemyCharacter_h_15_RPC_WRAPPERS \
-	Tankz_Source_Tankz_EnemyCharacter_h_15_INCLASS \
-	Tankz_Source_Tankz_EnemyCharacter_h_15_STANDARD_CONSTRUCTORS \
+	Tankz_Source_Tankz_EnemyCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+	Tankz_Source_Tankz_EnemyCharacter_h_14_SPARSE_DATA \
+	Tankz_Source_Tankz_EnemyCharacter_h_14_RPC_WRAPPERS \
+	Tankz_Source_Tankz_EnemyCharacter_h_14_INCLASS \
+	Tankz_Source_Tankz_EnemyCharacter_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Tankz_Source_Tankz_EnemyCharacter_h_15_GENERATED_BODY \
+#define Tankz_Source_Tankz_EnemyCharacter_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Tankz_Source_Tankz_EnemyCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
-	Tankz_Source_Tankz_EnemyCharacter_h_15_SPARSE_DATA \
-	Tankz_Source_Tankz_EnemyCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Tankz_Source_Tankz_EnemyCharacter_h_15_INCLASS_NO_PURE_DECLS \
-	Tankz_Source_Tankz_EnemyCharacter_h_15_ENHANCED_CONSTRUCTORS \
+	Tankz_Source_Tankz_EnemyCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+	Tankz_Source_Tankz_EnemyCharacter_h_14_SPARSE_DATA \
+	Tankz_Source_Tankz_EnemyCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	Tankz_Source_Tankz_EnemyCharacter_h_14_INCLASS_NO_PURE_DECLS \
+	Tankz_Source_Tankz_EnemyCharacter_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
