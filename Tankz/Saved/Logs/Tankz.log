@@ -1621,3 +1621,686 @@ ERROR: A conflicting instance of UnrealBuildTool is already running.
 [2020.08.02-18.21.46:819][419]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017BA9C1AA00), frame # 15419
 [2020.08.02-18.21.46:828][419]LogUObjectHash: Compacting FUObjectHashTables data took   8.21ms
 [2020.08.02-18.21.46:929][420]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.08.02-18.23.15:810][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Base_BuiltData" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Base_BuiltData.uasset" SILENT=true
+[2020.08.02-18.23.15:881][795]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Base_BuiltDataD751008E4F0493E4521E36B88E60F788.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Base_BuiltData.uasset'
+[2020.08.02-18.23.15:891][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Base" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Base.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.02-18.23.15:984][795]LogUObjectHash: Compacting FUObjectHashTables data took   9.78ms
+[2020.08.02-18.23.16:092][795]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Base41B269274307868BFA5E5F815C9DBE99.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Base.umap'
+[2020.08.02-18.23.16:260][795]LogFileHelpers: Saving map 'Base' took 0.370
+[2020.08.02-18.23.17:143][795]LogUObjectHash: Compacting FUObjectHashTables data took   6.82ms
+[2020.08.02-18.23.17:246][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.08.02-18.23.17:339][795]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2020.08.02-18.23.17:388][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2020.08.02-18.23.17:479][795]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.02-18.23.17:479][795]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Base_BuiltData.Base_BuiltData
+[2020.08.02-18.23.17:479][795]LogContentValidation: Display: Validating World /Game/Maps/Base.Base
+[2020.08.02-18.23.41:327][ 19]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Arena.Arena
+[2020.08.02-18.23.41:660][ 19]LogUObjectHash: Compacting FUObjectHashTables data took  17.11ms
+[2020.08.02-18.23.43:811][ 19]LogSlate: Window 'Save Content' being destroyed
+[2020.08.02-18.23.43:847][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.02-18.23.44:035][ 19]LogUObjectHash: Compacting FUObjectHashTables data took  12.47ms
+[2020.08.02-18.23.44:083][ 19]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Arena74A88A7A4DEA6A381F60AFA97770CFC2.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena.umap'
+[2020.08.02-18.23.44:090][ 19]LogFileHelpers: Saving map 'Arena' took 0.245
+[2020.08.02-18.23.44:090][ 19]Cmd: MAP LOAD FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.02-18.23.44:090][ 19]LightingResults: New page: Lighting Build
+[2020.08.02-18.23.44:091][ 19]LoadErrors: New page: Loading map: Arena.umap
+[2020.08.02-18.23.44:092][ 19]LogWorld: UWorld::CleanupWorld for Base, bSessionEnded=true, bCleanupResources=true
+[2020.08.02-18.23.44:093][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.23.44:093][ 19]MapCheck: New page: Map Check
+[2020.08.02-18.23.44:093][ 19]LightingResults: New page: Lighting Build
+[2020.08.02-18.23.44:165][ 19]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017B091CBE00), frame # 16019
+[2020.08.02-18.23.44:165][ 19]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017B79FA11C0), frame # 16019
+[2020.08.02-18.23.44:172][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   6.61ms
+[2020.08.02-18.23.44:176][ 19]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.02-18.23.44:176][ 19]LogAIModule: Creating AISystem for world Arena
+[2020.08.02-18.23.44:176][ 19]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017BA5CD6200), frame # 16019
+[2020.08.02-18.23.44:176][ 19]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017B173CCE00), frame # 16019
+[2020.08.02-18.23.44:245][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   6.99ms
+[2020.08.02-18.23.44:361][ 19]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.02-18.23.44:361][ 19]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.343ms to complete.
+[2020.08.02-18.23.44:362][ 19]LogFileHelpers: Loading map 'Arena' took 0.271
+[2020.08.02-18.23.44:503][ 19]AssetCheck: New page: Asset Save: Arena
+[2020.08.02-18.23.44:503][ 19]LogContentValidation: Display: Validating World /Game/Maps/Arena.Arena
+[2020.08.02-18.23.56:068][156]LogObjectTools: Deleting 1 worlds: /Game/Maps/Arena.Arena
+[2020.08.02-18.23.56:068][156]LogObjectTools: Currently 7 active worlds: /Game/Maps/Arena.Arena, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_6
+[2020.08.02-18.24.00:408][156]LogSlate: Window 'Unable to delete level' being destroyed
+[2020.08.02-18.24.00:414][156]Message dialog closed, result: Ok, title: Unable to delete level, text: Unable to delete level while it is open
+[2020.08.02-18.24.01:857][174]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Base.Base
+[2020.08.02-18.24.01:982][174]LogUObjectHash: Compacting FUObjectHashTables data took   7.03ms
+[2020.08.02-18.24.01:985][174]Cmd: MAP LOAD FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Base.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.02-18.24.01:991][174]LightingResults: New page: Lighting Build
+[2020.08.02-18.24.01:991][174]LoadErrors: New page: Loading map: Base.umap
+[2020.08.02-18.24.01:992][174]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.08.02-18.24.01:992][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.24.01:993][174]MapCheck: New page: Map Check
+[2020.08.02-18.24.01:993][174]LightingResults: New page: Lighting Build
+[2020.08.02-18.24.02:087][174]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017B173CCE00), frame # 16174
+[2020.08.02-18.24.02:087][174]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017BA5CD6200), frame # 16174
+[2020.08.02-18.24.02:097][174]LogUObjectHash: Compacting FUObjectHashTables data took   9.70ms
+[2020.08.02-18.24.02:107][174]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.02-18.24.02:108][174]LogAIModule: Creating AISystem for world Base
+[2020.08.02-18.24.02:108][174]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017BBF156A00), frame # 16174
+[2020.08.02-18.24.02:108][174]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017BA56FAFC0), frame # 16174
+[2020.08.02-18.24.02:235][174]LogUObjectHash: Compacting FUObjectHashTables data took   8.13ms
+[2020.08.02-18.24.02:386][174]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.02-18.24.02:386][174]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.329ms to complete.
+[2020.08.02-18.24.02:386][174]LogFileHelpers: Loading map 'Base' took 0.401
+[2020.08.02-18.25.02:294][728]LogObjectTools: Deleting 1 worlds: /Game/Maps/Arena.Arena
+[2020.08.02-18.25.02:295][728]LogObjectTools: Currently 7 active worlds: /Game/Maps/Base.Base, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_6
+[2020.08.02-18.25.02:438][728]LogUObjectHash: Compacting FUObjectHashTables data took  16.53ms
+[2020.08.02-18.25.04:373][728]LogSlate: Window 'Delete Assets' being destroyed
+[2020.08.02-18.25.04:435][728]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.08.02-18.25.04:436][728]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.25.04:686][728]LogUObjectHash: Compacting FUObjectHashTables data took   7.11ms
+[2020.08.02-18.25.04:776][728]LogUObjectHash: Compacting FUObjectHashTables data took   7.04ms
+[2020.08.02-18.25.04:844][728]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2020.08.02-18.25.18:232][861]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Arena.Arena
+[2020.08.02-18.25.18:369][861]LogUObjectHash: Compacting FUObjectHashTables data took  10.89ms
+[2020.08.02-18.25.20:024][861]LogSlate: Window 'Save Content' being destroyed
+[2020.08.02-18.25.20:075][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.02-18.25.20:236][861]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2020.08.02-18.25.20:324][861]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/ArenaBC909CB7474482290D1B488E81D5BE3D.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena.umap'
+[2020.08.02-18.25.20:341][861]LogFileHelpers: Saving map 'Arena' took 0.268
+[2020.08.02-18.25.20:341][861]Cmd: MAP LOAD FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.02-18.25.20:341][861]LightingResults: New page: Lighting Build
+[2020.08.02-18.25.20:341][861]LoadErrors: New page: Loading map: Arena.umap
+[2020.08.02-18.25.20:342][861]LogWorld: UWorld::CleanupWorld for Base, bSessionEnded=true, bCleanupResources=true
+[2020.08.02-18.25.20:342][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.25.20:343][861]MapCheck: New page: Map Check
+[2020.08.02-18.25.20:343][861]LightingResults: New page: Lighting Build
+[2020.08.02-18.25.20:412][861]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017BA56FAFC0), frame # 16861
+[2020.08.02-18.25.20:412][861]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017BBF156A00), frame # 16861
+[2020.08.02-18.25.20:419][861]LogUObjectHash: Compacting FUObjectHashTables data took   6.96ms
+[2020.08.02-18.25.20:430][861]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.02-18.25.20:430][861]LogAIModule: Creating AISystem for world Arena
+[2020.08.02-18.25.20:430][861]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017BFA0EAA00), frame # 16861
+[2020.08.02-18.25.20:430][861]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017BEF4960C0), frame # 16861
+[2020.08.02-18.25.20:516][861]LogUObjectHash: Compacting FUObjectHashTables data took   6.13ms
+[2020.08.02-18.25.20:634][861]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.02-18.25.20:634][861]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.32ms to complete.
+[2020.08.02-18.25.20:635][861]LogFileHelpers: Loading map 'Arena' took 0.294
+[2020.08.02-18.25.20:744][861]AssetCheck: New page: Asset Save: Arena
+[2020.08.02-18.25.20:744][861]LogContentValidation: Display: Validating World /Game/Maps/Arena.Arena
+[2020.08.02-18.25.24:273][896]MapCheck: New page: Map Check
+[2020.08.02-18.25.24:465][896]Cmd: MAP REBUILD ALLVISIBLE
+[2020.08.02-18.25.24:466][896]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.08.02-18.25.24:534][896]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=false
+[2020.08.02-18.25.24:578][896]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2020.08.02-18.25.24:579][896]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2020.08.02-18.25.24:579][896]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2020.08.02-18.25.24:579][896]LogNavigationDataBuild: Display:    Building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2020.08.02-18.25.24:613][896]LogNavigationDataBuild: Display: UNavigationSystemV1::Build total execution time: 0.03s
+[2020.08.02-18.25.24:734][896]LogUObjectHash: Compacting FUObjectHashTables data took   7.61ms
+[2020.08.02-18.25.24:760][896]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.08.02-18.25.24:793][896]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.08.02-18.25.24:801][896]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.08.02-18.25.24:810][896]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.08.02-18.25.24:810][896]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.08.02-18.25.24:810][896]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.08.02-18.25.24:810][896]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.08.02-18.25.30:454][896]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.08.02-18.25.30:455][896]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.08.02-18.25.30:455][896]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.08.02-18.25.30:455][896]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.08.02-18.25.30:455][896]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.08.02-18.25.30:455][896]TextureStreamingBuild: Display: Compiling optional shaders took 5.717 seconds.
+[2020.08.02-18.25.30:506][896]LogLevel: Display: Export Material TexCoord Scales took 0.051 seconds.
+[2020.08.02-18.25.30:511][896]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2020.08.02-18.25.30:555][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2020.08.02-18.25.30:565][896]LightingResults: New page: Lighting Build - Aug 2, 2020, 10:25:30 AM
+[2020.08.02-18.25.30:811][896]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.08.02-18.25.31:004][896]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.08.02-18.25.31:036][896]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.08.02-18.25.32:744][896]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.08.02-18.25.32:745][896]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1320
+[2020.08.02-18.25.36:366][896]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.08.02-18.25.36:367][896]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.08.02-18.25.36:367][896]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.08.02-18.25.36:367][896]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.08.02-18.25.36:367][896]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.08.02-18.25.36:367][896]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.08.02-18.25.37:190][896]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.08.02-18.25.37:190][896]MapCheck: New page: Arena - Aug 2, 2020, 10:25:37 AM
+[2020.08.02-18.25.37:191][896]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2020.08.02-18.25.37:192][896]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 2.252ms to complete.
+[2020.08.02-18.25.37:196][896]LogEditorBuildUtils: Build time 0:12
+[2020.08.02-18.25.37:246][896]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_SuperGrid_DefaultBlack, compiling. 
+[2020.08.02-18.25.37:267][896]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.08.02-18.25.37:268][896]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.08.02-18.25.37:268][896]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_SuperGrid_DefaultBlack, compiling. 
+[2020.08.02-18.25.37:376][896]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.08.02-18.25.42:493][898]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.08.02-18.25.42:973][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2020.08.02-18.26.17:525][225]Job is a success!
+[2020.08.02-18.26.18:253][226]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.082s
+[2020.08.02-18.26.18:253][226]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.08.02-18.26.18:253][226]LogVolumetricLightmapImport:      BrickData (all levels) 0.1Mb
+[2020.08.02-18.26.18:253][226]LogVolumetricLightmapImport:      Bricks at depth
+[2020.08.02-18.26.18:253][226]LogVolumetricLightmapImport:          0: 5.0% covering 100.0% of volume
+[2020.08.02-18.26.18:254][226]LogVolumetricLightmapImport:          1: 5.0% covering 1.6% of volume
+[2020.08.02-18.26.18:254][226]LogVolumetricLightmapImport:          2: 90.0% covering 0.4% of volume
+[2020.08.02-18.26.18:254][226]LogVolumetricLightmapImport:      Bricks in each level
+[2020.08.02-18.26.18:254][226]LogVolumetricLightmapImport:          Arena 			 20 bricks 	 100.0% (Persistent Level)
+[2020.08.02-18.26.18:516][226]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2020.08.02-18.26.18:517][226]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2020.08.02-18.26.18:517][226]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2020.08.02-18.26.18:517][226]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2020.08.02-18.26.18:628][226]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 256X128)
+[2020.08.02-18.26.18:628][226]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2020.08.02-18.26.18:629][226]LogStaticLightingSystem: Arena_BuiltData storing lightmap data for 3 meshes in 2 LightmapResourceClusters (1.5 Meshes per cluster).
+[2020.08.02-18.26.18:728][226]Lightmass on SKETCH-PC: 32.1 sec total, 1.75 sec importing, 365 ms setup, 5.11 sec photons, 24.7 sec processing, 0 ms extra exporting [3/3 mappings]. Threads: 1:36 min total, 12.6 sec processing.
+[2020.08.02-18.26.18:728][226]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.08.02-18.26.18:762][226]LogStaticLightingSystem: Illumination: 47.8 sec (138 ms encoding lightmaps, 117 ms encoding shadowmaps)
+[2020.08.02-18.26.18:763][226]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2020.08.02-18.26.18:763][226]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2020.08.02-18.26.19:409][226]DumpUnbuiltLightIteractions
+[2020.08.02-18.26.19:409][226]Lights with unbuilt interactions: 0
+[2020.08.02-18.26.19:409][226]
+[2020.08.02-18.26.19:409][226]Primitives with unbuilt interactions: 0
+[2020.08.02-18.26.19:651][227]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.08.02-18.26.19:651][227]MapCheck: New page: Arena - Aug 2, 2020, 10:26:19 AM
+[2020.08.02-18.26.19:653][227]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.122ms to complete.
+[2020.08.02-18.26.25:369][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena_BuiltData" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena_BuiltData.uasset" SILENT=true
+[2020.08.02-18.26.25:512][285]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Arena_BuiltData668C80C042C0B6F96860DBAA537ADE37.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena_BuiltData.uasset'
+[2020.08.02-18.26.25:533][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.02-18.26.25:655][285]LogUObjectHash: Compacting FUObjectHashTables data took  12.72ms
+[2020.08.02-18.26.25:839][285]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Arena3DF6EA7C48C03D89A3821F9F1A1355E9.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena.umap'
+[2020.08.02-18.26.26:036][285]LogFileHelpers: Saving map 'Arena' took 0.505
+[2020.08.02-18.26.26:114][285]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.02-18.26.26:114][285]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Arena_BuiltData.Arena_BuiltData
+[2020.08.02-18.26.26:114][285]LogContentValidation: Display: Validating World /Game/Maps/Arena.Arena
+[2020.08.02-18.26.32:037][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SuperGrid_Box)
+[2020.08.02-18.26.33:365][358]Cmd: DELETE
+[2020.08.02-18.26.33:366][358]Cmd: ACTOR DELETE
+[2020.08.02-18.26.33:376][358]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.08.02-18.26.33:583][358]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2020.08.02-18.26.33:589][358]LogEditorActor: Deleted 1 Actors (0.222 secs)
+[2020.08.02-18.26.42:895][450]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.08.02-18.27.20:118][802]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2020.08.02-18.27.52:269][125]LogStaticMesh: Building static mesh SuperGrid_BoxCentered...
+[2020.08.02-18.27.52:568][125]LogStaticMesh: Built static mesh [0.30s] /Game/SuperGrid/StarterPack/Models/Meshes/SuperGrid_BoxCentered.SuperGrid_BoxCentered
+[2020.08.02-18.27.52:738][125]LogActorFactory: Actor Factory created SuperGrid_BoxCentered
+[2020.08.02-18.27.55:166][150]LogActorFactory: Actor Factory created SuperGrid_BoxCentered
+[2020.08.02-18.30.43:260][ 20]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.02-18.30.43:477][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.02-18.30.43:478][ 20]PIE: New page: PIE session: Arena (Aug 2, 2020, 10:30:43 AM)
+[2020.08.02-18.30.43:478][ 20]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arena
+[2020.08.02-18.30.43:498][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019775s)
+[2020.08.02-18.30.43:506][ 20]LogAIModule: Creating AISystem for world Arena
+[2020.08.02-18.30.43:506][ 20]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017B17086E00), frame # 20020
+[2020.08.02-18.30.43:507][ 20]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017B17011080), frame # 20020
+[2020.08.02-18.30.43:508][ 20]LogPlayLevel: PIE: World Init took: (0.009235s)
+[2020.08.02-18.30.43:509][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.Arena to /Game/Maps/UEDPIE_0_Arena.Arena (0.030030s)
+[2020.08.02-18.30.43:641][ 20]LogUObjectHash: Compacting FUObjectHashTables data took  12.15ms
+[2020.08.02-18.30.43:658][ 20]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.02-18.30.43:659][ 20]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.02-18.30.43:659][ 20]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.02-18.30.43:659][ 20]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.02-18.30.43:659][ 20]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.02-18.30.43:659][ 20]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.02-18.30.43:659][ 20]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.02-18.30.43:659][ 20]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.02-18.30.43:661][ 20]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.02-18.30.43:662][ 20]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.02-18.30.43:691][ 20]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.02-18.30.43:691][ 20]LogAudioMixer: Display: 1: FrontRight
+[2020.08.02-18.30.43:834][ 20]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio(SST))
+[2020.08.02-18.30.43:835][ 20]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.02-18.30.43:835][ 20]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.02-18.30.43:835][ 20]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.02-18.30.43:838][ 20]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.02-18.30.43:889][ 20]LogInit: FAudioDevice initialized.
+[2020.08.02-18.30.43:921][ 20]LogLoad: Game class is 'BP_TankzGameModeBase_C'
+[2020.08.02-18.30.43:925][ 20]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.08.02-14.30.43
+[2020.08.02-18.30.43:926][ 20]LogWorld: Bringing up level for play took: 0.004127
+[2020.08.02-18.30.43:928][ 20]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.08.02-18.30.43:944][ 20]PIE: Server logged in
+[2020.08.02-18.30.43:948][ 20]PIE: Play in editor total start time 0.512 seconds.
+[2020.08.02-18.31.08:592][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.02-18.31.08:592][297]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Arena
+[2020.08.02-18.31.08:593][297]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.08.02-18.31.08:594][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.31.08:765][297]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.02-18.31.08:779][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.31.09:079][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.02-18.31.09:084][297]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017B17011080), frame # 20297
+[2020.08.02-18.31.09:085][297]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017B17086E00), frame # 20297
+[2020.08.02-18.31.09:100][297]LogUObjectHash: Compacting FUObjectHashTables data took  12.79ms
+[2020.08.02-18.31.09:283][298]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.08.02-18.31.15:008][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.08.02-18.31.24:610][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SuperGrid_BoxCentered)
+[2020.08.02-18.31.57:202][827]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SuperGrid_BoxCentered2)
+[2020.08.02-18.32.09:237][980]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SuperGrid_BoxCentered3)
+[2020.08.02-18.32.24:083][171]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SuperGrid_BoxCentered4)
+[2020.08.02-18.32.39:146][374]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SuperGrid_BoxCentered3)
+[2020.08.02-18.32.44:786][446]LogEditorViewport: Clicking Background
+[2020.08.02-18.32.48:238][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SuperGrid_BoxCentered3)
+[2020.08.02-18.33.01:417][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SuperGrid_BoxCentered4)
+[2020.08.02-18.33.25:719][796]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.08.02-18.33.37:182][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SuperGrid_BoxCentered3)
+[2020.08.02-18.33.43:385][965]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SuperGrid_BoxCentered)
+[2020.08.02-18.34.16:785][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SuperGrid_BoxCentered2)
+[2020.08.02-18.34.27:693][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SuperGrid_BoxCentered3)
+[2020.08.02-18.34.44:675][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SuperGrid_BoxCentered)
+[2020.08.02-18.34.59:959][872]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SuperGrid_BoxCentered4)
+[2020.08.02-18.35.10:199][  8]Candidate modules for hot reload:
+[2020.08.02-18.35.10:199][  8]  Tankz
+[2020.08.02-18.35.10:200][  8]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tankz,1002 TankzEditor Win64 Development -Project="C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject" "C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject"  -IgnoreJunk]
+[2020.08.02-18.35.10:210][  8]Warning: Starting HotReload took  0.1s.
+[2020.08.02-18.35.14:671][ 40]CompilerResultsLog: New page: Compilation - Aug 2, 2020, 10:35:14 AM
+[2020.08.02-18.35.14:671][ 40]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2).
+[2020.08.02-18.35.14:671][ 40]LogMainFrame: MainFrame: Module compiling took 4.582 seconds
+[2020.08.02-18.35.14:672][ 40]Warning: HotReload failed, recompile failed
+[2020.08.02-18.35.17:877][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.02-18.35.18:077][ 79]LogUObjectHash: Compacting FUObjectHashTables data took  20.88ms
+[2020.08.02-18.35.18:305][ 79]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Arena219D2515491D01CC25DA459634C8B3F3.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena.umap'
+[2020.08.02-18.35.18:510][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena_BuiltData" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena_BuiltData.uasset" SILENT=true
+[2020.08.02-18.35.18:675][ 79]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Arena_BuiltDataE48B0BFB461E4C3CEED0AFA35CD12C7A.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena_BuiltData.uasset'
+[2020.08.02-18.35.18:730][ 79]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.02-18.35.18:730][ 79]LogContentValidation: Display: Validating World /Game/Maps/Arena.Arena
+[2020.08.02-18.35.18:730][ 79]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Arena_BuiltData.Arena_BuiltData
+[2020.08.02-18.35.24:327][141]LogEditorViewport: Clicking on Actor (LMB): BP_EnemyTurret_C (BP_EnemyTurret)
+[2020.08.02-18.35.30:487][197]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2020.08.02-18.35.46:046][341]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.08.02-18.35.52:286][402]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.08.02-18.35.53:763][417]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.02-18.35.54:052][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.02-18.35.54:053][417]PIE: New page: PIE session: Arena (Aug 2, 2020, 10:35:54 AM)
+[2020.08.02-18.35.54:053][417]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arena
+[2020.08.02-18.35.54:069][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015893s)
+[2020.08.02-18.35.54:074][417]LogAIModule: Creating AISystem for world Arena
+[2020.08.02-18.35.54:074][417]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017B16D5F200), frame # 23417
+[2020.08.02-18.35.54:074][417]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017BEEB5AAC0), frame # 23417
+[2020.08.02-18.35.54:075][417]LogPlayLevel: PIE: World Init took: (0.005498s)
+[2020.08.02-18.35.54:075][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.Arena to /Game/Maps/UEDPIE_0_Arena.Arena (0.022046s)
+[2020.08.02-18.35.54:209][417]LogUObjectHash: Compacting FUObjectHashTables data took  10.72ms
+[2020.08.02-18.35.54:216][417]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.02-18.35.54:216][417]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.02-18.35.54:216][417]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.02-18.35.54:216][417]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.02-18.35.54:216][417]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.02-18.35.54:216][417]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.02-18.35.54:216][417]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.02-18.35.54:216][417]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.02-18.35.54:218][417]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.02-18.35.54:219][417]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.02-18.35.54:252][417]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.02-18.35.54:252][417]LogAudioMixer: Display: 1: FrontRight
+[2020.08.02-18.35.54:477][417]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio(SST))
+[2020.08.02-18.35.54:478][417]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.02-18.35.54:478][417]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.02-18.35.54:478][417]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.02-18.35.54:479][417]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.02-18.35.54:522][417]LogInit: FAudioDevice initialized.
+[2020.08.02-18.35.54:553][417]LogLoad: Game class is 'BP_TankzGameModeBase_C'
+[2020.08.02-18.35.54:556][417]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.08.02-14.35.54
+[2020.08.02-18.35.54:558][417]LogWorld: Bringing up level for play took: 0.003209
+[2020.08.02-18.35.54:559][417]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.08.02-18.35.54:573][417]PIE: Server logged in
+[2020.08.02-18.35.54:576][417]PIE: Play in editor total start time 0.556 seconds.
+[2020.08.02-18.36.05:842][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.02-18.36.05:842][547]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Arena
+[2020.08.02-18.36.05:843][547]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.08.02-18.36.05:844][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.36.06:025][547]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.02-18.36.06:056][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.36.06:302][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.02-18.36.06:305][547]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017BEEB5AAC0), frame # 23547
+[2020.08.02-18.36.06:305][547]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017B16D5F200), frame # 23547
+[2020.08.02-18.36.06:316][547]LogUObjectHash: Compacting FUObjectHashTables data took   9.61ms
+[2020.08.02-18.36.06:471][548]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.08.02-18.36.12:772][609]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.08.02-18.36.17:284][652]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.08.02-18.36.34:091][821]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.08.02-18.36.34:092][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.36.34:201][821]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.08.02-18.36.34:201][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.36.37:047][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.02-18.36.37:256][831]LogUObjectHash: Compacting FUObjectHashTables data took   8.70ms
+[2020.08.02-18.36.37:442][831]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Arena1734E0424CC616963570C7AAB6ABAEB9.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena.umap'
+[2020.08.02-18.36.37:666][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena_BuiltData" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena_BuiltData.uasset" SILENT=true
+[2020.08.02-18.36.37:820][831]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Arena_BuiltData9D8232644169840F468A6699B04DE556.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena_BuiltData.uasset'
+[2020.08.02-18.36.37:875][831]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.02-18.36.37:876][831]LogContentValidation: Display: Validating World /Game/Maps/Arena.Arena
+[2020.08.02-18.36.37:876][831]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Arena_BuiltData.Arena_BuiltData
+[2020.08.02-18.37.22:096][510]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerTank.BP_PlayerTank
+[2020.08.02-18.37.26:033][545]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.08.02-18.37.26:033][545]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.37.26:328][545]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerTank.BP_PlayerTank
+[2020.08.02-18.37.54:988][ 25]BlueprintLog: New page: Compile BP_PlayerTank
+[2020.08.02-18.37.55:370][ 25]LogUObjectHash: Compacting FUObjectHashTables data took  10.65ms
+[2020.08.02-18.37.55:539][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerTank" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_PlayerTank.uasset" SILENT=true
+[2020.08.02-18.37.55:739][ 25]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/BP_PlayerTank3EDBE671420B8F3B7EDC49BD8C18CDF8.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_PlayerTank.uasset'
+[2020.08.02-18.37.55:799][ 25]AssetCheck: New page: Asset Save: BP_PlayerTank
+[2020.08.02-18.37.55:800][ 25]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PlayerTank.BP_PlayerTank
+[2020.08.02-18.37.57:786][ 49]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.02-18.37.57:977][ 49]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.02-18.37.57:978][ 49]PIE: New page: PIE session: Arena (Aug 2, 2020, 10:37:57 AM)
+[2020.08.02-18.37.57:978][ 49]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arena
+[2020.08.02-18.37.58:009][ 49]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031069s)
+[2020.08.02-18.37.58:015][ 49]LogAIModule: Creating AISystem for world Arena
+[2020.08.02-18.37.58:015][ 49]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017C34F53E00), frame # 25049
+[2020.08.02-18.37.58:015][ 49]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017BECB32700), frame # 25049
+[2020.08.02-18.37.58:016][ 49]LogPlayLevel: PIE: World Init took: (0.006850s)
+[2020.08.02-18.37.58:017][ 49]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.Arena to /Game/Maps/UEDPIE_0_Arena.Arena (0.039113s)
+[2020.08.02-18.37.58:146][ 49]LogUObjectHash: Compacting FUObjectHashTables data took  10.56ms
+[2020.08.02-18.37.58:148][ 49]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.02-18.37.58:149][ 49]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.02-18.37.58:149][ 49]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.02-18.37.58:149][ 49]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.02-18.37.58:149][ 49]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.02-18.37.58:149][ 49]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.02-18.37.58:149][ 49]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.02-18.37.58:149][ 49]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.02-18.37.58:152][ 49]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.02-18.37.58:152][ 49]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.02-18.37.58:185][ 49]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.02-18.37.58:185][ 49]LogAudioMixer: Display: 1: FrontRight
+[2020.08.02-18.37.58:906][ 49]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio(SST))
+[2020.08.02-18.37.58:907][ 49]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.02-18.37.58:907][ 49]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.02-18.37.58:907][ 49]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.02-18.37.58:908][ 49]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.02-18.37.58:942][ 49]LogInit: FAudioDevice initialized.
+[2020.08.02-18.37.58:973][ 49]LogLoad: Game class is 'BP_TankzGameModeBase_C'
+[2020.08.02-18.37.58:976][ 49]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.08.02-14.37.58
+[2020.08.02-18.37.58:977][ 49]LogWorld: Bringing up level for play took: 0.002964
+[2020.08.02-18.37.58:978][ 49]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2020.08.02-18.37.58:992][ 49]PIE: Server logged in
+[2020.08.02-18.37.58:995][ 49]PIE: Play in editor total start time 1.053 seconds.
+[2020.08.02-18.38.15:472][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.02-18.38.15:472][243]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Arena
+[2020.08.02-18.38.15:474][243]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.08.02-18.38.15:475][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.38.15:594][243]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.02-18.38.15:609][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.38.15:839][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.02-18.38.15:845][243]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017BECB32700), frame # 25243
+[2020.08.02-18.38.15:845][243]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017C34F53E00), frame # 25243
+[2020.08.02-18.38.15:860][243]LogUObjectHash: Compacting FUObjectHashTables data took  14.40ms
+[2020.08.02-18.38.16:070][244]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.08.02-18.38.19:674][293]LogRenderer: Reallocating scene render targets to support 1080x572 Format 9 NumSamples 1 (Frame:1).
+[2020.08.02-18.38.29:797][424]BlueprintLog: New page: Compile BP_PlayerTank
+[2020.08.02-18.38.30:143][424]LogUObjectHash: Compacting FUObjectHashTables data took   8.55ms
+[2020.08.02-18.38.31:384][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerTank" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_PlayerTank.uasset" SILENT=true
+[2020.08.02-18.38.31:601][431]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/BP_PlayerTank137758804819E3AEFC2D469EEF69359C.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_PlayerTank.uasset'
+[2020.08.02-18.38.31:650][431]AssetCheck: New page: Asset Save: BP_PlayerTank
+[2020.08.02-18.38.31:650][431]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PlayerTank.BP_PlayerTank
+[2020.08.02-18.38.44:965][570]LogEditorViewport: Clicking on Actor (LMB): BP_EnemyTurret_C (BP_EnemyTurret)
+[2020.08.02-18.39.12:784][844]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.08.02-18.39.16:285][867]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_EnemyTurret.BP_EnemyTurret
+[2020.08.02-18.39.37:153][162]BlueprintLog: New page: Compile BP_PlayerTank
+[2020.08.02-18.39.37:432][162]LogUObjectHash: Compacting FUObjectHashTables data took  10.26ms
+[2020.08.02-18.39.38:237][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerTank" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_PlayerTank.uasset" SILENT=true
+[2020.08.02-18.39.38:472][170]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/BP_PlayerTank030CFB1442F462BFD23145B541DBD71F.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_PlayerTank.uasset'
+[2020.08.02-18.39.38:568][170]AssetCheck: New page: Asset Save: BP_PlayerTank
+[2020.08.02-18.39.38:568][170]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PlayerTank.BP_PlayerTank
+[2020.08.02-18.39.43:436][257]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.08.02-18.39.43:436][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.39.43:703][257]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_EnemyTurret.BP_EnemyTurret
+[2020.08.02-18.39.51:053][356]BlueprintLog: New page: Compile BP_EnemyTurret
+[2020.08.02-18.39.51:282][356]LogUObjectHash: Compacting FUObjectHashTables data took   8.25ms
+[2020.08.02-18.39.52:223][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyTurret" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_EnemyTurret.uasset" SILENT=true
+[2020.08.02-18.39.52:502][368]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/BP_EnemyTurret6D4D1A9849B1B8E6022004971CEC525B.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_EnemyTurret.uasset'
+[2020.08.02-18.39.52:562][368]AssetCheck: New page: Asset Save: BP_EnemyTurret
+[2020.08.02-18.39.52:563][368]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_EnemyTurret.BP_EnemyTurret
+[2020.08.02-18.40.04:156][526]BlueprintLog: New page: Compile BP_EnemyTurret
+[2020.08.02-18.40.04:446][526]LogUObjectHash: Compacting FUObjectHashTables data took  10.78ms
+[2020.08.02-18.40.05:028][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyTurret" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_EnemyTurret.uasset" SILENT=true
+[2020.08.02-18.40.05:276][532]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/BP_EnemyTurretE3E2EDC5430351B52DEC61AEDE3CA6DC.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_EnemyTurret.uasset'
+[2020.08.02-18.40.05:328][532]AssetCheck: New page: Asset Save: BP_EnemyTurret
+[2020.08.02-18.40.05:328][532]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_EnemyTurret.BP_EnemyTurret
+[2020.08.02-18.40.15:848][607]LogUObjectHash: Compacting FUObjectHashTables data took   9.63ms
+[2020.08.02-18.40.17:479][614]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_EnemyTank.BP_EnemyTank
+[2020.08.02-18.40.21:484][635]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.08.02-18.40.21:484][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.40.21:787][635]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_EnemyTank.BP_EnemyTank
+[2020.08.02-18.40.33:589][746]BlueprintLog: New page: Compile BP_EnemyTank
+[2020.08.02-18.40.34:004][746]LogUObjectHash: Compacting FUObjectHashTables data took   9.96ms
+[2020.08.02-18.40.34:304][747]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyTank" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_EnemyTank.uasset" SILENT=true
+[2020.08.02-18.40.34:407][747]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/BP_EnemyTank427183D8466600520923A094D681901D.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_EnemyTank.uasset'
+[2020.08.02-18.40.34:454][747]AssetCheck: New page: Asset Save: BP_EnemyTank
+[2020.08.02-18.40.34:454][747]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_EnemyTank.BP_EnemyTank
+[2020.08.02-18.40.50:289][947]BlueprintLog: New page: Compile BP_EnemyTank
+[2020.08.02-18.40.50:541][947]LogUObjectHash: Compacting FUObjectHashTables data took  10.85ms
+[2020.08.02-18.40.51:626][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyTank" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_EnemyTank.uasset" SILENT=true
+[2020.08.02-18.40.51:858][960]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/BP_EnemyTank1A8DCBFE476DB07E9F7ED691CCF2B946.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_EnemyTank.uasset'
+[2020.08.02-18.40.51:938][960]AssetCheck: New page: Asset Save: BP_EnemyTank
+[2020.08.02-18.40.51:939][960]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_EnemyTank.BP_EnemyTank
+[2020.08.02-18.41.52:402][597]BlueprintLog: New page: Compile BP_EnemyTank
+[2020.08.02-18.41.53:170][597]LogUObjectHash: Compacting FUObjectHashTables data took   7.44ms
+[2020.08.02-18.41.53:916][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyTank" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_EnemyTank.uasset" SILENT=true
+[2020.08.02-18.41.54:118][606]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/BP_EnemyTank3D0C7F164B75F0382EA119B3468F6390.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_EnemyTank.uasset'
+[2020.08.02-18.41.54:183][606]AssetCheck: New page: Asset Save: BP_EnemyTank
+[2020.08.02-18.41.54:184][606]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_EnemyTank.BP_EnemyTank
+[2020.08.02-18.41.59:013][673]BlueprintLog: New page: Compile BP_EnemyTank
+[2020.08.02-18.41.59:689][673]LogUObjectHash: Compacting FUObjectHashTables data took   8.15ms
+[2020.08.02-18.41.59:986][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyTank" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_EnemyTank.uasset" SILENT=true
+[2020.08.02-18.42.00:114][674]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/BP_EnemyTankF6CEF1554E61A06B4D0764ACC86F2475.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_EnemyTank.uasset'
+[2020.08.02-18.42.00:175][674]AssetCheck: New page: Asset Save: BP_EnemyTank
+[2020.08.02-18.42.00:175][674]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_EnemyTank.BP_EnemyTank
+[2020.08.02-18.42.01:184][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyTank" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_EnemyTank.uasset" SILENT=true
+[2020.08.02-18.42.01:409][689]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/BP_EnemyTank6359AD4147715CCAF02BCE8AC99C8A07.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_EnemyTank.uasset'
+[2020.08.02-18.42.01:451][689]AssetCheck: New page: Asset Save: BP_EnemyTank
+[2020.08.02-18.42.01:451][689]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_EnemyTank.BP_EnemyTank
+[2020.08.02-18.42.53:992][206]LogUObjectHash: Compacting FUObjectHashTables data took  14.86ms
+[2020.08.02-18.42.54:082][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.02-18.42.54:199][206]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.08.02-18.42.54:445][206]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/ArenaD5E2F07B4BC8F25ABF31F6AFD0363614.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena.umap'
+[2020.08.02-18.42.54:687][206]LogFileHelpers: Saving map 'Arena' took 0.610
+[2020.08.02-18.42.54:688][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena_BuiltData" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena_BuiltData.uasset" SILENT=true
+[2020.08.02-18.42.54:835][206]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Arena_BuiltData7D7CD8CA4C417451709772AA4DB3E0C9.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Maps/Arena_BuiltData.uasset'
+[2020.08.02-18.42.54:951][206]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.02-18.42.54:951][206]LogContentValidation: Display: Validating World /Game/Maps/Arena.Arena
+[2020.08.02-18.42.54:952][206]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Arena_BuiltData.Arena_BuiltData
+[2020.08.02-18.42.57:431][234]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.02-18.42.57:629][234]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.02-18.42.57:630][234]PIE: New page: PIE session: Arena (Aug 2, 2020, 10:42:57 AM)
+[2020.08.02-18.42.57:630][234]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arena
+[2020.08.02-18.42.57:664][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033083s)
+[2020.08.02-18.42.57:668][234]LogAIModule: Creating AISystem for world Arena
+[2020.08.02-18.42.57:668][234]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017C4BA71600), frame # 28234
+[2020.08.02-18.42.57:669][234]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017C4C89CA40), frame # 28234
+[2020.08.02-18.42.57:669][234]LogPlayLevel: PIE: World Init took: (0.005435s)
+[2020.08.02-18.42.57:670][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.Arena to /Game/Maps/UEDPIE_0_Arena.Arena (0.039169s)
+[2020.08.02-18.42.57:808][234]LogUObjectHash: Compacting FUObjectHashTables data took   8.78ms
+[2020.08.02-18.42.57:810][234]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.02-18.42.57:811][234]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.02-18.42.57:811][234]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.02-18.42.57:811][234]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.02-18.42.57:811][234]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.02-18.42.57:811][234]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.02-18.42.57:811][234]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.02-18.42.57:811][234]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.02-18.42.57:813][234]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.02-18.42.57:813][234]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.02-18.42.57:849][234]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.02-18.42.57:849][234]LogAudioMixer: Display: 1: FrontRight
+[2020.08.02-18.42.58:102][234]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio(SST))
+[2020.08.02-18.42.58:103][234]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.02-18.42.58:103][234]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.02-18.42.58:103][234]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.02-18.42.58:104][234]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.02-18.42.58:130][234]LogInit: FAudioDevice initialized.
+[2020.08.02-18.42.58:165][234]LogLoad: Game class is 'BP_TankzGameModeBase_C'
+[2020.08.02-18.42.58:170][234]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.08.02-14.42.58
+[2020.08.02-18.42.58:173][234]LogWorld: Bringing up level for play took: 0.006393
+[2020.08.02-18.42.58:174][234]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2020.08.02-18.42.58:191][234]PIE: Server logged in
+[2020.08.02-18.42.58:194][234]PIE: Play in editor total start time 0.61 seconds.
+[2020.08.02-18.43.46:388][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.02-18.43.46:388][774]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Arena
+[2020.08.02-18.43.46:389][774]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.08.02-18.43.46:390][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.43.46:556][774]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.02-18.43.46:569][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.43.46:795][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.02-18.43.46:861][774]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017C4C89CA40), frame # 28774
+[2020.08.02-18.43.46:861][774]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017C4BA71600), frame # 28774
+[2020.08.02-18.43.46:871][774]LogUObjectHash: Compacting FUObjectHashTables data took   9.48ms
+[2020.08.02-18.43.47:123][775]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2020.08.02-18.43.48:061][785]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.02-18.43.48:307][785]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.02-18.43.48:308][785]PIE: New page: PIE session: Arena (Aug 2, 2020, 10:43:48 AM)
+[2020.08.02-18.43.48:308][785]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arena
+[2020.08.02-18.43.48:332][785]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023466s)
+[2020.08.02-18.43.48:336][785]LogAIModule: Creating AISystem for world Arena
+[2020.08.02-18.43.48:336][785]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017C4D943E00), frame # 28785
+[2020.08.02-18.43.48:336][785]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017C4B6C0A40), frame # 28785
+[2020.08.02-18.43.48:337][785]LogPlayLevel: PIE: World Init took: (0.005060s)
+[2020.08.02-18.43.48:337][785]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.Arena to /Game/Maps/UEDPIE_0_Arena.Arena (0.029139s)
+[2020.08.02-18.43.48:498][785]LogUObjectHash: Compacting FUObjectHashTables data took   8.55ms
+[2020.08.02-18.43.48:500][785]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.02-18.43.48:500][785]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.02-18.43.48:500][785]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.02-18.43.48:500][785]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.02-18.43.48:500][785]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.02-18.43.48:500][785]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.02-18.43.48:501][785]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.02-18.43.48:501][785]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.02-18.43.48:502][785]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.02-18.43.48:503][785]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.02-18.43.48:528][785]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.02-18.43.48:528][785]LogAudioMixer: Display: 1: FrontRight
+[2020.08.02-18.43.48:792][785]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio(SST))
+[2020.08.02-18.43.48:793][785]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.02-18.43.48:793][785]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.02-18.43.48:793][785]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.02-18.43.48:794][785]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.02-18.43.48:812][785]LogInit: FAudioDevice initialized.
+[2020.08.02-18.43.48:853][785]LogLoad: Game class is 'BP_TankzGameModeBase_C'
+[2020.08.02-18.43.48:860][785]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.08.02-14.43.48
+[2020.08.02-18.43.48:863][785]LogWorld: Bringing up level for play took: 0.008297
+[2020.08.02-18.43.48:864][785]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2020.08.02-18.43.48:884][785]PIE: Server logged in
+[2020.08.02-18.43.48:888][785]PIE: Play in editor total start time 0.6 seconds.
+[2020.08.02-18.44.31:418][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.02-18.44.31:418][259]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Arena
+[2020.08.02-18.44.31:419][259]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.08.02-18.44.31:420][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.44.31:572][259]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.02-18.44.31:581][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.44.31:718][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.02-18.44.31:820][259]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017C4B6C0A40), frame # 29259
+[2020.08.02-18.44.31:821][259]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017C4D943E00), frame # 29259
+[2020.08.02-18.44.31:831][259]LogUObjectHash: Compacting FUObjectHashTables data took   9.82ms
+[2020.08.02-18.44.32:062][260]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2020.08.02-18.44.53:224][337]Candidate modules for hot reload:
+[2020.08.02-18.44.53:224][337]  Tankz
+[2020.08.02-18.44.53:226][337]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tankz,9732 TankzEditor Win64 Development -Project="C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject" "C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject"  -IgnoreJunk]
+[2020.08.02-18.44.53:247][337]Warning: Starting HotReload took  0.1s.
+[2020.08.02-18.45.39:876][759]CompilerResultsLog: New page: Compilation - Aug 2, 2020, 10:45:39 AM
+[2020.08.02-18.45.39:876][759]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2).
+[2020.08.02-18.45.39:876][759]CompilerResultsLog: Building TankzEditor...
+[2020.08.02-18.45.39:876][759]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.08.02-18.45.39:877][759]CompilerResultsLog: Building 5 actions with 4 processes...
+[2020.08.02-18.45.39:877][759]CompilerResultsLog:   [1/5] EnemyCharacter.cpp
+[2020.08.02-18.45.39:877][759]CompilerResultsLog:   [2/5] TankzGameModeBase.cpp
+[2020.08.02-18.45.39:877][759]CompilerResultsLog:   [3/5] UE4Editor-Tankz-9732.lib
+[2020.08.02-18.45.39:877][759]CompilerResultsLog:      Creating library C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-9732.lib and object C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-9732.exp
+[2020.08.02-18.45.39:877][759]CompilerResultsLog:   [4/5] UE4Editor-Tankz-9732.dll
+[2020.08.02-18.45.39:877][759]CompilerResultsLog:      Creating library C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-9732.suppressed.lib and object C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-9732.suppressed.exp
+[2020.08.02-18.45.39:878][759]CompilerResultsLog:   [5/5] TankzEditor.target
+[2020.08.02-18.45.39:878][759]CompilerResultsLog: Total time in Parallel executor: 37.55 seconds
+[2020.08.02-18.45.39:878][759]CompilerResultsLog: Total execution time: 45.24 seconds
+[2020.08.02-18.45.39:878][759]LogMainFrame: MainFrame: Module compiling took 46.729 seconds
+[2020.08.02-18.45.40:256][759]LogContentBrowser: Native class hierarchy updated for 'Tankz' in 0.0020 seconds. Added 10 classes and 2 folders.
+[2020.08.02-18.45.40:267][759]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.08.02-18.45.40:746][759]LogContentBrowser: Native class hierarchy populated in 0.0362 seconds. Added 3437 classes and 823 folders.
+[2020.08.02-18.45.40:756][759]Display: HotReload took 47.6s.
+[2020.08.02-18.46.15:333][ 93]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.02-18.46.15:513][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.02-18.46.15:514][ 93]PIE: New page: PIE session: Arena (Aug 2, 2020, 10:46:15 AM)
+[2020.08.02-18.46.15:514][ 93]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arena
+[2020.08.02-18.46.15:536][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022367s)
+[2020.08.02-18.46.15:542][ 93]LogAIModule: Creating AISystem for world Arena
+[2020.08.02-18.46.15:542][ 93]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017BED87FC00), frame # 30093
+[2020.08.02-18.46.15:543][ 93]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017C5AE0FD80), frame # 30093
+[2020.08.02-18.46.15:545][ 93]LogPlayLevel: PIE: World Init took: (0.008741s)
+[2020.08.02-18.46.15:546][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.Arena to /Game/Maps/UEDPIE_0_Arena.Arena (0.032139s)
+[2020.08.02-18.46.15:731][ 93]LogUObjectHash: Compacting FUObjectHashTables data took  11.59ms
+[2020.08.02-18.46.15:734][ 93]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.02-18.46.15:734][ 93]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.02-18.46.15:734][ 93]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.02-18.46.15:734][ 93]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.02-18.46.15:734][ 93]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.02-18.46.15:735][ 93]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.02-18.46.15:735][ 93]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.02-18.46.15:735][ 93]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.02-18.46.15:736][ 93]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.02-18.46.15:736][ 93]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.02-18.46.15:755][ 93]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.02-18.46.15:755][ 93]LogAudioMixer: Display: 1: FrontRight
+[2020.08.02-18.46.15:845][ 93]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio(SST))
+[2020.08.02-18.46.15:846][ 93]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.02-18.46.15:846][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.02-18.46.15:846][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.02-18.46.15:847][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.02-18.46.15:892][ 93]LogInit: FAudioDevice initialized.
+[2020.08.02-18.46.15:910][ 93]LogLoad: Game class is 'BP_TankzGameModeBase_C'
+[2020.08.02-18.46.15:914][ 93]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.08.02-14.46.15
+[2020.08.02-18.46.15:917][ 93]LogWorld: Bringing up level for play took: 0.005593
+[2020.08.02-18.46.15:917][ 93]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2020.08.02-18.46.15:931][ 93]PIE: Server logged in
+[2020.08.02-18.46.15:933][ 93]PIE: Play in editor total start time 0.451 seconds.
+[2020.08.02-18.46.57:700][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.02-18.46.57:700][583]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Arena
+[2020.08.02-18.46.57:701][583]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.08.02-18.46.57:702][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.46.57:855][583]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.02-18.46.57:872][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.46.58:051][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.02-18.46.58:061][583]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017C5AE0FD80), frame # 30583
+[2020.08.02-18.46.58:061][583]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017BED87FC00), frame # 30583
+[2020.08.02-18.46.58:075][583]LogUObjectHash: Compacting FUObjectHashTables data took  11.70ms
+[2020.08.02-18.46.58:181][584]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2020.08.02-18.46.59:188][595]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.02-18.46.59:378][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.02-18.46.59:378][595]PIE: New page: PIE session: Arena (Aug 2, 2020, 10:46:59 AM)
+[2020.08.02-18.46.59:380][595]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arena
+[2020.08.02-18.46.59:410][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029838s)
+[2020.08.02-18.46.59:414][595]LogAIModule: Creating AISystem for world Arena
+[2020.08.02-18.46.59:414][595]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017BF303BE00), frame # 30595
+[2020.08.02-18.46.59:415][595]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017BF249AD40), frame # 30595
+[2020.08.02-18.46.59:415][595]LogPlayLevel: PIE: World Init took: (0.004861s)
+[2020.08.02-18.46.59:415][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.Arena to /Game/Maps/UEDPIE_0_Arena.Arena (0.035328s)
+[2020.08.02-18.46.59:535][595]LogUObjectHash: Compacting FUObjectHashTables data took  10.63ms
+[2020.08.02-18.46.59:537][595]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.02-18.46.59:537][595]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.02-18.46.59:537][595]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.02-18.46.59:537][595]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.02-18.46.59:537][595]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.02-18.46.59:538][595]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.02-18.46.59:538][595]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.02-18.46.59:538][595]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.02-18.46.59:540][595]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.02-18.46.59:540][595]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.02-18.46.59:564][595]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.02-18.46.59:564][595]LogAudioMixer: Display: 1: FrontRight
+[2020.08.02-18.46.59:664][595]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio(SST))
+[2020.08.02-18.46.59:665][595]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.02-18.46.59:665][595]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.02-18.46.59:665][595]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.02-18.46.59:666][595]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.02-18.46.59:722][595]LogInit: FAudioDevice initialized.
+[2020.08.02-18.46.59:747][595]LogLoad: Game class is 'BP_TankzGameModeBase_C'
+[2020.08.02-18.46.59:754][595]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.08.02-14.46.59
+[2020.08.02-18.46.59:757][595]LogWorld: Bringing up level for play took: 0.007623
+[2020.08.02-18.46.59:758][595]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2020.08.02-18.46.59:775][595]PIE: Server logged in
+[2020.08.02-18.46.59:777][595]PIE: Play in editor total start time 0.425 seconds.
+[2020.08.02-18.47.20:829][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.02-18.47.20:829][840]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Arena
+[2020.08.02-18.47.20:830][840]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.08.02-18.47.20:831][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.47.20:992][840]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.02-18.47.21:008][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-18.47.21:181][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.02-18.47.21:184][840]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017BF249AD40), frame # 30840
+[2020.08.02-18.47.21:184][840]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017BF303BE00), frame # 30840
+[2020.08.02-18.47.21:195][840]LogUObjectHash: Compacting FUObjectHashTables data took   9.40ms
+[2020.08.02-18.47.21:336][841]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2020.08.02-18.47.34:436][974]LogUObjectHash: Compacting FUObjectHashTables data took   9.73ms
+[2020.08.02-18.47.34:562][974]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.08.02-18.47.34:658][974]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2020.08.02-18.47.34:744][974]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
