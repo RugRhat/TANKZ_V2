@@ -17,10 +17,12 @@ public:
 	// Sets default values for this component's properties
 	UHealthComponent();
 
+	float GetHealth() const;
+
 private:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Health", meta = (AllowPrivateAccess = "true"))
-	float DefaultHealth = 100.f;
+	float MaxHealth = 100.f;
 	float Health = 0.f;
 
 	AActor* Owner;

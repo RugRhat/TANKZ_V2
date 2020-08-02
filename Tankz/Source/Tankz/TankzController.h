@@ -17,4 +17,15 @@ class TANKZ_API ATankzController : public APlayerController
 public:
 
 	void SetPlayerEnabledState(bool SetPlayerEnabled);
+
+	void SetHUD();
+
+	void RemoveHUD();
+
+private:
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<class UUserWidget> HUDClass;
+
+	UUserWidget* HUD;
 };

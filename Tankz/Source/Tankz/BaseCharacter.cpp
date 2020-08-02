@@ -32,6 +32,12 @@ void ABaseCharacter::Fire()
 }
 
 
+float ABaseCharacter::GetHealth() const
+{
+	return HealthComponent->GetHealth();
+}
+
+
 void ABaseCharacter::CharDestroyed() 
 {
 	HandleDestruction();
@@ -52,4 +58,6 @@ void ABaseCharacter::HandleDestruction()
 		GetWorld()->GetFirstPlayerController()->PlayerCameraManager->PlayCameraShake(DeathShake, 1);
 	}
 }
+
+
 

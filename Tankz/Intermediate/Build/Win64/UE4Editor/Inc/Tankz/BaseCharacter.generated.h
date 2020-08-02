@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define TANKZ_BaseCharacter_generated_h
 
 #define Tankz_Source_Tankz_BaseCharacter_h_15_SPARSE_DATA
-#define Tankz_Source_Tankz_BaseCharacter_h_15_RPC_WRAPPERS
-#define Tankz_Source_Tankz_BaseCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define Tankz_Source_Tankz_BaseCharacter_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetHealth);
+
+
+#define Tankz_Source_Tankz_BaseCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetHealth);
+
+
 #define Tankz_Source_Tankz_BaseCharacter_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABaseCharacter(); \

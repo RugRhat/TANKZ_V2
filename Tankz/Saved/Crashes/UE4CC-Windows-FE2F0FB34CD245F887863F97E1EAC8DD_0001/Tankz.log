@@ -1,0 +1,858 @@
+﻿Log file open, 08/02/20 12:11:06
+LogInit: Display: Running engine for game: Tankz
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.503951
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz, GPU: Intel(R) HD Graphics 620
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.08.02-16.11.07:005][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.08.02-16.11.07:005][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.08.02-16.11.07:005][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Engine.ini]
+[2020.08.02-16.11.07:005][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.08.02-16.11.07:005][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Engine.ini]
+[2020.08.02-16.11.07:005][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Engine.ini]
+[2020.08.02-16.11.07:005][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.08.02-16.11.07:005][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.08.02-16.11.07:005][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.08.02-16.11.07:005][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.08.02-16.11.07:005][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.08.02-16.11.07:005][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.08.02-16.11.07:005][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.08.02-16.11.07:005][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.08.02-16.11.07:005][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.08.02-16.11.07:005][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.08.02-16.11.07:005][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.08.02-16.11.07:005][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.08.02-16.11.07:005][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.08.02-16.11.07:005][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.08.02-16.11.07:005][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Engine.ini]
+[2020.08.02-16.11.07:005][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.08.02-16.11.07:006][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.08.02-16.11.07:006][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.08.02-16.11.07:006][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.08.02-16.11.07:006][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.08.02-16.11.07:006][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.08.02-16.11.07:006][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.08.02-16.11.07:006][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.08.02-16.11.07:006][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.08.02-16.11.07:006][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.08.02-16.11.07:006][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.08.02-16.11.07:006][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.08.02-16.11.07:006][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.08.02-16.11.07:006][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Engine.ini]
+[2020.08.02-16.11.07:006][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Engine.ini]
+[2020.08.02-16.11.07:012][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.02-16.11.07:012][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.02-16.11.07:013][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.02-16.11.07:014][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.02-16.11.07:014][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.08.02-16.11.07:014][  0]LogHAL: Display: Platform has ~ 16 GB [17052516352 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.08.02-16.11.07:014][  0]LogInit: Going up to parent DeviceProfile []
+[2020.08.02-16.11.07:014][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.8]]
+[2020.08.02-16.11.07:014][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2020.08.02-16.11.07:015][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:48]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.SSR.Quality:2]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:1]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.SSS.Quality:-1]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.SSGI.Quality:2]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.5]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:1]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@2] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Scalability.ini]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.02-16.11.07:016][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.02-16.11.07:017][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.02-16.11.07:017][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.02-16.11.07:017][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.02-16.11.07:017][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.08.02-16.11.07:017][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.08.02-16.11.07:017][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.08.02-16.11.07:017][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.08.02-16.11.07:017][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Config/Windows/Engine.ini]
+[2020.08.02-16.11.07:017][  0]LogInit: Computer: SKETCH-PC
+[2020.08.02-16.11.07:017][  0]LogInit: User: Angelica
+[2020.08.02-16.11.07:017][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.08.02-16.11.07:017][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.08.02-16.11.07:018][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.08.02-16.11.07:018][  0]LogMemory: Platform Memory Stats for Windows
+[2020.08.02-16.11.07:018][  0]LogMemory: Process Physical Memory: 114.36 MB used, 114.36 MB peak
+[2020.08.02-16.11.07:018][  0]LogMemory: Process Virtual Memory: 96.93 MB used, 96.93 MB peak
+[2020.08.02-16.11.07:018][  0]LogMemory: Physical Memory: 10062.37 MB used,  6200.18 MB free, 16262.55 MB total
+[2020.08.02-16.11.07:018][  0]LogMemory: Virtual Memory: 5124.79 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2020.08.02-16.11.07:028][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.08.02-16.11.07:089][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.08.02-16.11.07:090][  0]LogInit: Using OS detected language (en-US).
+[2020.08.02-16.11.07:090][  0]LogInit: Using OS detected locale (en-US).
+[2020.08.02-16.11.07:104][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.08.02-16.11.07:490][  0]LogInit: Setting process to per monitor DPI aware
+[2020.08.02-16.11.07:580][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.08.02-16.11.07:580][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.08.02-16.11.07:962][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.02-16.11.07:962][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.08.02-16.11.07:962][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.08.02-16.11.07:962][  0]LogD3D11RHI: D3D11 adapters:
+[2020.08.02-16.11.08:183][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2020.08.02-16.11.08:183][  0]LogD3D11RHI:       128/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2020.08.02-16.11.08:187][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.02-16.11.08:187][  0]LogD3D11RHI:       0/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.02-16.11.08:193][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.02-16.11.08:193][  0]LogD3D11RHI:       0/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.02-16.11.08:197][  0]LogD3D11RHI:    3. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.02-16.11.08:197][  0]LogD3D11RHI:       0/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.02-16.11.08:202][  0]LogD3D11RHI:    4. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.02-16.11.08:202][  0]LogD3D11RHI:       0/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.02-16.11.08:202][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.08.02-16.11.08:213][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.08.02-16.11.08:213][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2020.08.02-16.11.08:213][  0]LogWindows: EnumDisplayDevices:
+[2020.08.02-16.11.08:213][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2020.08.02-16.11.08:214][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2020.08.02-16.11.08:214][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2020.08.02-16.11.08:215][  0]LogWindows:    3. 'MS Idd Device' (P:0 D:0)
+[2020.08.02-16.11.08:215][  0]LogWindows:    4. 'MS Idd Device' (P:0 D:0)
+[2020.08.02-16.11.08:215][  0]LogWindows:    5. 'MS Idd Device' (P:0 D:1)
+[2020.08.02-16.11.08:216][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
+[2020.08.02-16.11.08:216][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2020.08.02-16.11.08:216][  0]LogD3D11RHI:   Driver Version: 24.20.100.6344 (internal:24.20.100.6344, unified:24.20.100.6344)
+[2020.08.02-16.11.08:216][  0]LogD3D11RHI:      Driver Date: 11-10-2018
+[2020.08.02-16.11.08:216][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2020.08.02-16.11.08:222][  0]LogD3D11RHI: [IntelMetricsDiscovery] Failed to initialize context. Result=00000002
+[2020.08.02-16.11.08:432][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.08.02-16.11.08:432][  0]LogD3D11RHI: Async texture creation enabled
+[2020.08.02-16.11.08:432][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.08.02-16.11.08:444][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2020.08.02-16.11.09:091][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.08.02-16.11.09:135][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.08.02-16.11.09:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.08.02-16.11.09:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.08.02-16.11.09:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.08.02-16.11.09:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.08.02-16.11.09:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.08.02-16.11.09:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.08.02-16.11.09:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.08.02-16.11.09:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.08.02-16.11.09:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.08.02-16.11.09:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.08.02-16.11.09:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.08.02-16.11.09:204][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.08.02-16.11.09:224][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.08.02-16.11.09:242][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.08.02-16.11.09:261][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.08.02-16.11.09:280][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.08.02-16.11.09:300][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.08.02-16.11.09:318][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.08.02-16.11.09:370][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.08.02-16.11.09:370][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.08.02-16.11.09:408][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.08.02-16.11.09:408][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.08.02-16.11.09:428][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.08.02-16.11.09:445][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.08.02-16.11.09:463][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.08.02-16.11.09:482][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.08.02-16.11.09:482][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.08.02-16.11.09:497][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.08.02-16.11.09:614][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Intermediate/Shaders/WorkingDirectory/13972/).
+[2020.08.02-16.11.09:614][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Angelica .DESKTOP-RM5JOAJ/AppData/Local/Temp/UnrealShaderWorkingDir/91AA9A8049855143BAEEBAB05C18DCC8/'.
+[2020.08.02-16.11.09:615][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.08.02-16.11.09:615][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.08.02-16.11.09:615][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.08.02-16.11.11:085][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.08.02-16.11.11:166][  0]LogDerivedDataCache: Loaded boot cache 0.08s 75MB C:/Users/Angelica .DESKTOP-RM5JOAJ/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.02-16.11.11:166][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Angelica .DESKTOP-RM5JOAJ/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.08.02-16.11.11:166][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.08.02-16.11.11:166][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.08.02-16.11.11:166][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.02-16.11.11:166][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.08.02-16.11.11:183][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.08.02-16.11.11:183][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.02-16.11.11:183][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.08.02-16.11.11:186][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Angelica .DESKTOP-RM5JOAJ/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.08.02-16.11.11:186][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.08.02-16.11.11:186][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.08.02-16.11.11:287][  0]LogSlate: Using FreeType 2.10.0
+[2020.08.02-16.11.11:288][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.08.02-16.11.11:342][  0]LogAssetRegistry: FAssetRegistry took 0.0043 seconds to start up
+[2020.08.02-16.11.11:894][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.02-16.11.12:121][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.08.02-16.11.12:121][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.08.02-16.11.12:121][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.08.02-16.11.12:121][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.08.02-16.11.12:121][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.08.02-16.11.12:150][  0]LogNetVersion: Tankz 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2266825420)
+[2020.08.02-16.11.13:123][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002110A28E980), frame # 0
+[2020.08.02-16.11.13:123][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002110A11EAC0), frame # 0
+[2020.08.02-16.11.13:127][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002110A171C00), frame # 0
+[2020.08.02-16.11.13:284][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.148415 seconds
+[2020.08.02-16.11.13:293][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.08.02-16.11.13:293][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.08.02-16.11.13:293][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.08.02-16.11.13:968][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.08.02-16.11.13:975][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.08.02-16.11.14:149][  0]SourceControl: Source control is disabled
+[2020.08.02-16.11.14:149][  0]SourceControl: Source control is disabled
+[2020.08.02-16.11.14:156][  0]SourceControl: Source control is disabled
+[2020.08.02-16.11.14:163][  0]SourceControl: Source control is disabled
+[2020.08.02-16.11.14:184][  0]SourceControl: Source control is disabled
+[2020.08.02-16.11.14:703][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.08.02-16.11.14:741][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.02-16.11.14:741][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.02-16.11.14:837][  0]LogOcInput: OculusInput pre-init called
+[2020.08.02-16.11.14:861][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.08.02-16.11.14:861][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.08.02-16.11.14:975][  0]LogEngine: Initializing Engine...
+[2020.08.02-16.11.14:978][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.02-16.11.14:979][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.08.02-16.11.14:981][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.08.02-16.11.15:194][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.08.02-16.11.15:211][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.08.02-16.11.15:211][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002110F1D1C00), frame # 0
+[2020.08.02-16.11.15:211][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002110F1BF380), frame # 0
+[2020.08.02-16.11.15:219][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.02-16.11.15:219][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.02-16.11.15:220][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.02-16.11.15:220][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.02-16.11.15:220][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.02-16.11.15:220][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.02-16.11.15:220][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.02-16.11.15:220][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.02-16.11.15:221][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.02-16.11.15:221][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.02-16.11.15:281][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.02-16.11.15:281][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.08.02-16.11.15:362][  0]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio(SST))
+[2020.08.02-16.11.15:366][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.02-16.11.15:371][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.02-16.11.15:371][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.02-16.11.15:372][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.02-16.11.15:373][  0]LogInit: FAudioDevice initialized.
+[2020.08.02-16.11.15:374][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.08.02-16.11.15:456][  0]LogDerivedDataCache: Saved boot cache 0.08s 75MB C:/Users/Angelica .DESKTOP-RM5JOAJ/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.02-16.11.15:464][  0]LogInit: Texture streaming: Enabled
+[2020.08.02-16.11.15:496][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.08.02-16.11.15:496][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.08.02-16.11.15:511][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.08.02-16.11.15:658][  0]LogInit: Transaction tracking system initialized
+[2020.08.02-16.11.15:699][  0]BlueprintLog: New page: Editor Load
+[2020.08.02-16.11.15:828][  0]LocalizationService: Localization service is disabled
+[2020.08.02-16.11.16:167][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.08.02-16.11.16:168][  0]LogCook: Display: Mobile HDR setting 1
+[2020.08.02-16.11.16:393][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/' took 0.01s
+[2020.08.02-16.11.17:073][  0]SourceControl: Source control is disabled
+[2020.08.02-16.11.17:073][  0]LogUnrealEdMisc: Loading editor; pre map load, took 14.540
+[2020.08.02-16.11.17:073][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Base.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.02-16.11.17:095][  0]LightingResults: New page: Lighting Build
+[2020.08.02-16.11.17:096][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.08.02-16.11.17:097][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-16.11.17:097][  0]MapCheck: New page: Map Check
+[2020.08.02-16.11.17:097][  0]LightingResults: New page: Lighting Build
+[2020.08.02-16.11.17:107][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002110F1D1C00), frame # 0
+[2020.08.02-16.11.17:107][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002110F1BF380), frame # 0
+[2020.08.02-16.11.17:109][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2020.08.02-16.11.18:028][  0]LogAIModule: Creating AISystem for world Base
+[2020.08.02-16.11.18:028][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002110324BE00), frame # 0
+[2020.08.02-16.11.18:028][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002110EC51080), frame # 0
+[2020.08.02-16.11.18:038][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.02-16.11.18:073][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2020.08.02-16.11.18:073][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.02-16.11.18:073][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.244ms to complete.
+[2020.08.02-16.11.18:073][  0]LogFileHelpers: Loading map 'Base' took 1.000
+[2020.08.02-16.11.18:080][  0]LogUnrealEdMisc: Total Editor Startup Time, took 15.547
+[2020.08.02-16.11.19:121][  0]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.08.02-16.11.20:044][  0]LogCollectionManager: Loaded 0 collections in 0.003926 seconds
+[2020.08.02-16.11.20:077][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Collections/' took 0.00s
+[2020.08.02-16.11.20:077][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Developers/Angelica/Collections/' took 0.00s
+[2020.08.02-16.11.20:077][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Collections/' took 0.00s
+[2020.08.02-16.11.20:077][  0]LogContentBrowser: Native class hierarchy populated in 0.0198 seconds. Added 3437 classes and 823 folders.
+[2020.08.02-16.11.20:084][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.08.02-16.11.20:733][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.08.02-16.11.20:736][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 0 folders.
+[2020.08.02-16.11.20:823][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.02-16.11.20:835][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.02-16.11.20:849][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.02-16.11.20:862][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.02-16.11.20:960][  0]LogSlate: Took 0.035927 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.08.02-16.11.20:962][  0]LogSlate: Took 0.001261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.08.02-16.11.21:019][  0]LogSlate: Took 0.034214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.08.02-16.11.21:557][  0]LogRenderer: Reallocating scene render targets to support 1080x544 Format 9 NumSamples 1 (Frame:1).
+[2020.08.02-16.11.22:111][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2020.08.02-16.11.22:113][  0]LogLoad: (Engine Initialization) Total time: 19.58 seconds
+[2020.08.02-16.11.22:113][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.08.02-16.11.23:911][  0]LogContentStreaming: Texture pool size now 800 MB
+[2020.08.02-16.11.24:705][  1]LogAssetRegistry: Asset discovery search completed in 13.3652 seconds
+[2020.08.02-16.11.24:718][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2020.08.02-16.11.25:016][  2]LogSlate: Took 0.017882 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.02-16.11.26:684][ 21]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_TankzController.BP_TankzController
+[2020.08.02-16.11.27:365][ 21]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 125 classes and 0 folders.
+[2020.08.02-16.11.29:309][ 21]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Widgets/WBP_HUD.WBP_HUD
+[2020.08.02-16.11.30:272][ 21]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_TankzGameModeBase.BP_TankzGameModeBase
+[2020.08.02-16.11.32:095][ 21]LogSlate: Took 0.000408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.08.02-16.11.32:383][ 22]LogSlate: Took 0.000521 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.08.02-16.11.38:280][120]BlueprintLog: New page: Compile BP_TankzGameModeBase
+[2020.08.02-16.11.38:481][120]LogUObjectHash: Compacting FUObjectHashTables data took   9.02ms
+[2020.08.02-16.11.39:497][131]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/BP_TankzGameModeBaseF20157D94D9BD83CAFF32BB05F4BDC75.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_TankzGameModeBase.uasset'
+[2020.08.02-16.11.39:546][131]AssetCheck: New page: Asset Save: BP_TankzGameModeBase
+[2020.08.02-16.11.39:546][131]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_TankzGameModeBase.BP_TankzGameModeBase
+[2020.08.02-16.11.51:857][340]BlueprintLog: New page: Compile BP_TankzGameModeBase
+[2020.08.02-16.11.52:060][340]LogUObjectHash: Compacting FUObjectHashTables data took  10.39ms
+[2020.08.02-16.11.52:871][348]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/BP_TankzGameModeBase52E324074D1BA2C5C9540D8235C32FC0.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/BP_TankzGameModeBase.uasset'
+[2020.08.02-16.11.52:903][348]AssetCheck: New page: Asset Save: BP_TankzGameModeBase
+[2020.08.02-16.11.52:904][348]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_TankzGameModeBase.BP_TankzGameModeBase
+[2020.08.02-16.11.56:649][404]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.08.02-16.11.56:650][404]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.02-16.13.41:672][300]Candidate modules for hot reload:
+[2020.08.02-16.13.41:672][300]  Tankz
+[2020.08.02-16.13.41:676][300]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tankz,3219 TankzEditor Win64 Development -Project="C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject" "C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject"  -IgnoreJunk]
+[2020.08.02-16.13.41:699][300]Warning: Starting HotReload took  0.1s.
+[2020.08.02-16.17.30:596][536]CompilerResultsLog: New page: Compilation - Aug 2, 2020, 8:17:30 AM
+[2020.08.02-16.17.30:598][536]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2).
+[2020.08.02-16.17.30:603][536]CompilerResultsLog: Parsing headers for TankzEditor
+[2020.08.02-16.17.30:603][536]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Tankz.uproject" "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\TankzEditor\Development\TankzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Angelica .DESKTOP-RM5JOAJ\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.08.02-16.17.30:604][536]CompilerResultsLog: Reflection code generated for TankzEditor in 84.7233624 seconds
+[2020.08.02-16.17.30:604][536]CompilerResultsLog: Building TankzEditor...
+[2020.08.02-16.17.30:604][536]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.08.02-16.17.30:604][536]CompilerResultsLog: Building 11 actions with 4 processes...
+[2020.08.02-16.17.30:604][536]CompilerResultsLog:   [1/11] Tankz.init.gen.cpp
+[2020.08.02-16.17.30:604][536]CompilerResultsLog:   [2/11] HealthComponent.gen.cpp
+[2020.08.02-16.17.30:604][536]CompilerResultsLog:   [3/11] Tank.gen.cpp
+[2020.08.02-16.17.30:604][536]CompilerResultsLog:   [4/11] Tank.cpp
+[2020.08.02-16.17.30:604][536]CompilerResultsLog:   [5/11] HealthComponent.cpp
+[2020.08.02-16.17.30:604][536]CompilerResultsLog:   [6/11] EnemyCharacter.cpp
+[2020.08.02-16.17.30:605][536]CompilerResultsLog:   [7/11] BaseCharacter.cpp
+[2020.08.02-16.17.30:605][536]CompilerResultsLog:   [8/11] TankzGameModeBase.cpp
+[2020.08.02-16.17.30:605][536]CompilerResultsLog:   [9/11] UE4Editor-Tankz-3219.lib
+[2020.08.02-16.17.30:605][536]CompilerResultsLog:      Creating library C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-3219.lib and object C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-3219.exp
+[2020.08.02-16.17.30:605][536]CompilerResultsLog:   [10/11] UE4Editor-Tankz-3219.dll
+[2020.08.02-16.17.30:607][536]CompilerResultsLog:      Creating library C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-3219.suppressed.lib and object C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-3219.suppressed.exp
+[2020.08.02-16.17.30:608][536]CompilerResultsLog:   [11/11] TankzEditor.target
+[2020.08.02-16.17.30:608][536]CompilerResultsLog: Total time in Parallel executor: 127.57 seconds
+[2020.08.02-16.17.30:608][536]CompilerResultsLog: Total execution time: 227.11 seconds
+[2020.08.02-16.17.30:609][536]LogMainFrame: MainFrame: Module compiling took 229.001 seconds
+[2020.08.02-16.17.30:880][536]LogClass: Could not find existing class HealthComponent in package /Script/Tankz for HotReload, assuming new class
+[2020.08.02-16.17.30:880][536]LogClass: Function GetHealthPercent is new.
+[2020.08.02-16.17.30:880][536]LogClass: Function TakeDamage is new.
+[2020.08.02-16.17.30:892][536]LogClass: Could not find existing class Tank in package /Script/Tankz for HotReload, assuming new class
+[2020.08.02-16.17.30:942][536]LogHotReload: Re-instancing BaseCharacter after hot-reload.
+[2020.08.02-16.17.31:129][536]LogHotReload: Re-instancing HealthComponent after hot-reload.
+[2020.08.02-16.17.31:281][536]LogHotReload: Re-instancing Tank after hot-reload.
+[2020.08.02-16.17.31:459][536]LogContentBrowser: Native class hierarchy updated for 'Tankz' in 0.0016 seconds. Added 10 classes and 2 folders.
+[2020.08.02-16.17.31:472][536]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.08.02-16.17.31:950][536]LogContentBrowser: Native class hierarchy populated in 0.0288 seconds. Added 3437 classes and 823 folders.
+[2020.08.02-16.17.31:950][536]Display: HotReload took 230.3s.
+[2020.08.02-16.17.36:819][572]LogUObjectHash: Compacting FUObjectHashTables data took  21.33ms
+[2020.08.02-16.17.36:997][572]LogUObjectHash: Compacting FUObjectHashTables data took  12.52ms
+[2020.08.02-16.20.52:082][795]BlueprintLog: New page: Compile WBP_HUD
+[2020.08.02-16.20.52:098][795]LogBlueprint: Warning: [Compiler WBP_HUD] 'Health Component' does not inherit from 'Pawn' ( Cast To HealthComponent  would always fail).
+[2020.08.02-16.20.52:216][795]LogUObjectHash: Compacting FUObjectHashTables data took  15.66ms
+[2020.08.02-16.20.52:959][802]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_HUD" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/Widgets/WBP_HUD.uasset" SILENT=true
+[2020.08.02-16.20.53:050][802]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/WBP_HUD076BF0C547BF8A807266D9BD9614AD5E.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/Widgets/WBP_HUD.uasset'
+[2020.08.02-16.20.53:096][802]AssetCheck: New page: Asset Save: WBP_HUD
+[2020.08.02-16.20.53:096][802]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_HUD.WBP_HUD
+[2020.08.02-16.22.42:501][489]BlueprintLog: New page: Compile WBP_HUD
+[2020.08.02-16.22.42:516][489]LogBlueprint: Warning: [Compiler WBP_HUD] 'Health Component' does not inherit from 'BP Player Tank' ( Cast To HealthComponent  would always fail).
+[2020.08.02-16.22.42:606][489]LogUObjectHash: Compacting FUObjectHashTables data took  10.49ms
+[2020.08.02-16.23.34:329][262]BlueprintLog: New page: Compile WBP_HUD
+[2020.08.02-16.23.34:333][262]LogBlueprint: Warning: [Compiler WBP_HUD] 'Health Component' does not inherit from 'Tank' ( Cast To HealthComponent  would always fail).
+[2020.08.02-16.23.34:424][262]LogUObjectHash: Compacting FUObjectHashTables data took   9.18ms
+[2020.08.02-16.24.10:461][831]BlueprintLog: New page: Compile WBP_HUD
+[2020.08.02-16.24.10:476][831]LogBlueprint: Error: [Compiler WBP_HUD] The type of  Object  is undetermined.  Connect something to  Cast To HealthComponent  to imply a specific type.
+[2020.08.02-16.24.10:477][831]LogBlueprint: Error: [Compiler WBP_HUD] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2020.08.02-16.24.10:583][831]LogUObjectHash: Compacting FUObjectHashTables data took  14.29ms
+[2020.08.02-16.24.51:741][484]BlueprintLog: New page: Compile WBP_HUD
+[2020.08.02-16.24.51:745][484]LogBlueprint: Warning: [Compiler WBP_HUD] 'Health Component' does not inherit from 'Pawn' ( Cast To HealthComponent  would always fail).
+[2020.08.02-16.24.51:836][484]LogUObjectHash: Compacting FUObjectHashTables data took  11.79ms
+[2020.08.02-16.25.13:080][799]BlueprintLog: New page: Compile WBP_HUD
+[2020.08.02-16.25.13:087][799]LogBlueprint: Warning: [Compiler WBP_HUD] 'Health Component' does not inherit from 'Character' ( Cast To HealthComponent  would always fail).
+[2020.08.02-16.25.13:206][799]LogUObjectHash: Compacting FUObjectHashTables data took  13.70ms
+[2020.08.02-16.26.51:945][277]LogUObjectHash: Compacting FUObjectHashTables data took   7.58ms
+[2020.08.02-16.26.51:947][277]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Base' took 0.067
+[2020.08.02-16.26.51:947][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Widgets/WBP_HUD] ([1] browsable assets)...
+[2020.08.02-16.26.51:948][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Widgets/WBP_HUD]
+[2020.08.02-16.26.52:009][277]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/WBP_HUD_Auto1A723D8214C0D1B8BE0F0C5A1243AA823.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/Autosaves/Game/Blueprints/Widgets/WBP_HUD_Auto1.uasset'
+[2020.08.02-16.26.52:012][277]LogFileHelpers: Auto-saving content packages took 0.065
+[2020.08.02-16.29.10:365][699]Candidate modules for hot reload:
+[2020.08.02-16.29.10:365][699]  Tankz
+[2020.08.02-16.29.10:367][699]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tankz,460 TankzEditor Win64 Development -Project="C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject" "C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject"  -IgnoreJunk]
+[2020.08.02-16.29.10:380][699]Warning: Starting HotReload took  0.0s.
+[2020.08.02-16.32.43:211][788]CompilerResultsLog: New page: Compilation - Aug 2, 2020, 8:32:43 AM
+[2020.08.02-16.32.43:211][788]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2).
+[2020.08.02-16.32.43:212][788]CompilerResultsLog: Parsing headers for TankzEditor
+[2020.08.02-16.32.43:212][788]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Tankz.uproject" "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\TankzEditor\Development\TankzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Angelica .DESKTOP-RM5JOAJ\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.08.02-16.32.43:212][788]CompilerResultsLog: Reflection code generated for TankzEditor in 71.4717626 seconds
+[2020.08.02-16.32.43:212][788]CompilerResultsLog: Building TankzEditor...
+[2020.08.02-16.32.43:212][788]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.08.02-16.32.43:212][788]CompilerResultsLog: Building 11 actions with 4 processes...
+[2020.08.02-16.32.43:212][788]CompilerResultsLog:   [1/11] Tankz.init.gen.cpp
+[2020.08.02-16.32.43:213][788]CompilerResultsLog:   [2/11] HealthComponent.gen.cpp
+[2020.08.02-16.32.43:213][788]CompilerResultsLog:   [3/11] Tank.gen.cpp
+[2020.08.02-16.32.43:213][788]CompilerResultsLog:   [4/11] Tank.cpp
+[2020.08.02-16.32.43:213][788]CompilerResultsLog:   [5/11] HealthComponent.cpp
+[2020.08.02-16.32.43:213][788]CompilerResultsLog:   [6/11] EnemyCharacter.cpp
+[2020.08.02-16.32.43:213][788]CompilerResultsLog:   [7/11] BaseCharacter.cpp
+[2020.08.02-16.32.43:213][788]CompilerResultsLog:   [8/11] TankzGameModeBase.cpp
+[2020.08.02-16.32.43:213][788]CompilerResultsLog:   [9/11] UE4Editor-Tankz-0460.lib
+[2020.08.02-16.32.43:213][788]CompilerResultsLog:      Creating library C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-0460.lib and object C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-0460.exp
+[2020.08.02-16.32.43:214][788]CompilerResultsLog:   [10/11] UE4Editor-Tankz-0460.dll
+[2020.08.02-16.32.43:214][788]CompilerResultsLog:      Creating library C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-0460.suppressed.lib and object C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-0460.suppressed.exp
+[2020.08.02-16.32.43:214][788]CompilerResultsLog:   [11/11] TankzEditor.target
+[2020.08.02-16.32.43:214][788]CompilerResultsLog: Total time in Parallel executor: 124.97 seconds
+[2020.08.02-16.32.43:214][788]CompilerResultsLog: Total execution time: 211.40 seconds
+[2020.08.02-16.32.43:215][788]LogMainFrame: MainFrame: Module compiling took 212.871 seconds
+[2020.08.02-16.32.43:417][788]LogContentBrowser: Native class hierarchy populated in 0.0932 seconds. Added 3437 classes and 823 folders.
+[2020.08.02-16.32.43:417][788]Display: HotReload took 213.1s.
+[2020.08.02-16.32.49:246][832]LogUObjectHash: Compacting FUObjectHashTables data took  15.90ms
+[2020.08.02-16.32.49:309][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_HUD" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/Widgets/WBP_HUD.uasset" SILENT=true
+[2020.08.02-16.32.49:447][832]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/WBP_HUDF6530400487C7DB218D30E9E7785CC81.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/Widgets/WBP_HUD.uasset'
+[2020.08.02-16.32.49:498][832]AssetCheck: New page: Asset Save: WBP_HUD
+[2020.08.02-16.32.49:498][832]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_HUD.WBP_HUD
+[2020.08.02-16.33.57:625][427]Candidate modules for hot reload:
+[2020.08.02-16.33.57:626][427]  Tankz
+[2020.08.02-16.33.57:627][427]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tankz,5133 TankzEditor Win64 Development -Project="C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject" "C:/Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Tankz.uproject"  -IgnoreJunk]
+[2020.08.02-16.33.57:639][427]Warning: Starting HotReload took  0.1s.
+[2020.08.02-16.34.38:820][824]CompilerResultsLog: New page: Compilation - Aug 2, 2020, 8:34:38 AM
+[2020.08.02-16.34.38:820][824]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2).
+[2020.08.02-16.34.38:820][824]CompilerResultsLog: Building TankzEditor...
+[2020.08.02-16.34.38:821][824]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.08.02-16.34.38:821][824]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.08.02-16.34.38:821][824]CompilerResultsLog:   [1/4] HealthComponent.cpp
+[2020.08.02-16.34.38:821][824]CompilerResultsLog:   [2/4] UE4Editor-Tankz-5133.lib
+[2020.08.02-16.34.38:821][824]CompilerResultsLog:      Creating library C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-5133.lib and object C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-5133.exp
+[2020.08.02-16.34.38:821][824]CompilerResultsLog:   [3/4] UE4Editor-Tankz-5133.dll
+[2020.08.02-16.34.38:821][824]CompilerResultsLog:      Creating library C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-5133.suppressed.lib and object C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-5133.suppressed.exp
+[2020.08.02-16.34.38:822][824]CompilerResultsLog:   [4/4] TankzEditor.target
+[2020.08.02-16.34.38:822][824]CompilerResultsLog: Total time in Parallel executor: 28.10 seconds
+[2020.08.02-16.34.38:822][824]CompilerResultsLog: Total execution time: 39.70 seconds
+[2020.08.02-16.34.38:822][824]LogMainFrame: MainFrame: Module compiling took 41.258 seconds
+[2020.08.02-16.34.39:087][824]LogClass: Could not find existing class HealthComponent in package /Script/Tankz for HotReload, assuming new class
+[2020.08.02-16.34.39:087][824]LogClass: Function TakeDamage is new.
+[2020.08.02-16.34.39:094][824]LogClass: Could not find existing class Tank in package /Script/Tankz for HotReload, assuming new class
+[2020.08.02-16.34.39:094][824]LogClass: Function GetHealthPercent is new.
+[2020.08.02-16.34.39:131][824]LogHotReload: Re-instancing BaseCharacter after hot-reload.
+[2020.08.02-16.34.39:286][824]LogHotReload: Re-instancing HealthComponent after hot-reload.
+[2020.08.02-16.34.39:406][824]LogHotReload: Re-instancing Tank after hot-reload.
+[2020.08.02-16.34.39:585][824]LogContentBrowser: Native class hierarchy updated for 'Tankz' in 0.0012 seconds. Added 10 classes and 2 folders.
+[2020.08.02-16.34.39:596][824]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.08.02-16.34.40:035][824]LogContentBrowser: Native class hierarchy populated in 0.0223 seconds. Added 3437 classes and 823 folders.
+[2020.08.02-16.34.40:035][824]Display: HotReload took 42.5s.
+[2020.08.02-16.35.13:053][208]BlueprintLog: New page: Compile WBP_HUD
+[2020.08.02-16.35.13:415][208]LogUObjectHash: Compacting FUObjectHashTables data took  14.10ms
+[2020.08.02-16.35.14:119][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_HUD" FILE="../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/Widgets/WBP_HUD.uasset" SILENT=true
+[2020.08.02-16.35.14:198][216]LogSavePackage: Moving '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Saved/WBP_HUD7C0F8E1149913FACACE6268036613A78.tmp' to '../../../../../../Users/Angelica .DESKTOP-RM5JOAJ/Documents/TANKZ_V2/Tankz/Content/Blueprints/Widgets/WBP_HUD.uasset'
+[2020.08.02-16.35.14:250][216]AssetCheck: New page: Asset Save: WBP_HUD
+[2020.08.02-16.35.14:250][216]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_HUD.WBP_HUD
+[2020.08.02-16.35.16:491][243]LogUObjectHash: Compacting FUObjectHashTables data took  21.68ms
+[2020.08.02-16.35.16:578][243]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2020.08.02-16.35.16:684][243]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.08.02-16.35.16:779][243]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.08.02-16.35.18:263][260]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.02-16.35.18:443][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.02-16.35.18:444][260]PIE: New page: PIE session: Base (Aug 2, 2020, 8:35:18 AM)
+[2020.08.02-16.35.18:447][260]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.08.02-16.35.18:452][260]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.08.02-16.35.18:452][260]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Base
+[2020.08.02-16.35.18:483][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031554s)
+[2020.08.02-16.35.18:487][260]LogAIModule: Creating AISystem for world Base
+[2020.08.02-16.35.18:488][260]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000211E9A8B400), frame # 16260
+[2020.08.02-16.35.18:488][260]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000211EB288B80), frame # 16260
+[2020.08.02-16.35.18:489][260]LogPlayLevel: PIE: World Init took: (0.005470s)
+[2020.08.02-16.35.18:489][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Base.Base to /Game/UEDPIE_0_Base.Base (0.037617s)
+[2020.08.02-16.35.18:618][260]LogUObjectHash: Compacting FUObjectHashTables data took  11.87ms
+[2020.08.02-16.35.18:622][260]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.02-16.35.18:622][260]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.02-16.35.18:622][260]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.02-16.35.18:622][260]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.02-16.35.18:622][260]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.02-16.35.18:622][260]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.02-16.35.18:622][260]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.02-16.35.18:622][260]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.02-16.35.18:623][260]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.02-16.35.18:623][260]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.02-16.35.18:655][260]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.02-16.35.18:655][260]LogAudioMixer: Display: 1: FrontRight
+[2020.08.02-16.35.18:810][260]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio(SST))
+[2020.08.02-16.35.18:811][260]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.02-16.35.18:811][260]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.02-16.35.18:811][260]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.02-16.35.18:812][260]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.02-16.35.18:867][260]LogInit: FAudioDevice initialized.
+[2020.08.02-16.35.18:885][260]LogLoad: Game class is 'BP_TankzGameModeBase_C'
+[2020.08.02-16.35.18:888][260]LogWorld: Bringing World /Game/UEDPIE_0_Base.Base up for play (max tick rate 60) at 2020.08.02-12.35.18
+[2020.08.02-16.35.18:890][260]LogWorld: Bringing up level for play took: 0.003944
+[2020.08.02-16.35.18:891][260]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.08.02-16.35.19:045][260]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0015 seconds. Added 20 classes and 0 folders.
+[2020.08.02-16.35.19:054][260]PIE: Server logged in
+[2020.08.02-16.35.19:058][260]PIE: Play in editor total start time 0.651 seconds.

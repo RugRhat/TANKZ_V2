@@ -35,18 +35,24 @@ void ATankzGameModeBase::HandleGameStart()
     GameStart();
 
     if(PlayerControllerRef){
-            PlayerControllerRef->SetPlayerEnabledState(false);
+        PlayerControllerRef->SetPlayerEnabledState(false);
+
+        FTimerHandle PlayerEnableHandle;
+        FTimerDelegate PlayerEnableDelegate = FTimerDelegate::CreateUObject(PlayerControllerRef, &ATankzController::SetPlayerEnabledState, true);
+
+        GetWorldTimerManager().SetTimer(PlayerEnableHandle, PlayerEnableDelegate, StartDelay, false);
     
-            FTimerHandle PlayerEnableHandle;
-            FTimerDelegate PlayerEnableDelegate = FTimerDelegate::CreateUObject(PlayerControllerRef, &ATankzController::SetPlayerEnabledState, true);
-    
-            GetWorldTimerManager().SetTimer(PlayerEnableHandle, PlayerEnableDelegate, StartDelay, false);
+        PlayerControllerRef->SetHUD();
     }
 }
 
 
 void ATankzGameModeBase::HandleGameOver(bool PlayerWon)
 {
+    if(PlayerControllerRef){
+        PlayerControllerRef->RemoveHUD();
+    }
+    
     GameOver(PlayerWon);
 }
 

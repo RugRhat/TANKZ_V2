@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyCharacter, 3724047858);
+	IMPLEMENT_CLASS(AEnemyCharacter, 3720570543);
 	template<> TANKZ_API UClass* StaticClass<AEnemyCharacter>()
 	{
 		return AEnemyCharacter::StaticClass();

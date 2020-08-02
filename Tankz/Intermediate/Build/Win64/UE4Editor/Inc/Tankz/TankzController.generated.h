@@ -60,7 +60,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATankzController); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATankzController)
 
 
-#define Tankz_Source_Tankz_TankzController_h_15_PRIVATE_PROPERTY_OFFSET
+#define Tankz_Source_Tankz_TankzController_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__HUDClass() { return STRUCT_OFFSET(ATankzController, HUDClass); }
+
+
 #define Tankz_Source_Tankz_TankzController_h_12_PROLOG
 #define Tankz_Source_Tankz_TankzController_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

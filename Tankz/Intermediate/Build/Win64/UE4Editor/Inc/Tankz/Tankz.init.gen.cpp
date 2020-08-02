@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeTankz_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x44FB5ADE,
+				0x5D13906D,
 				0x108BAA64,
 				METADATA_PARAMS(nullptr, 0)
 			};

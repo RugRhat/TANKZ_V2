@@ -2,6 +2,7 @@
 
 
 #include "TankzController.h"
+#include "Blueprint/UserWidget.h"
 
 
 void ATankzController::SetPlayerEnabledState(bool SetPlayerEnabled) 
@@ -13,4 +14,19 @@ void ATankzController::SetPlayerEnabledState(bool SetPlayerEnabled)
         GetPawn()->DisableInput(this);
         ATankzController::bShowMouseCursor = false;
     }
+}
+
+
+void ATankzController::SetHUD() 
+{
+    HUD = CreateWidget(this, HUDClass);
+    if(HUD != nullptr){
+        HUD->AddToViewport();
+    }
+}
+
+
+void ATankzController::RemoveHUD() 
+{
+    HUD->RemoveFromViewport();
 }

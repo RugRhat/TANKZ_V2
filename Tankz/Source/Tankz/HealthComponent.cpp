@@ -20,7 +20,7 @@ void UHealthComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
-	Health = DefaultHealth;
+	Health = MaxHealth;
 
 	GameModeRef = Cast<ATankzGameModeBase>(UGameplayStatics::GetGameMode(GetWorld()));
 
@@ -37,7 +37,7 @@ void UHealthComponent::TakeDamage(AActor* DamagedActor, float Damage, const clas
 {
 	if(Damage == 0 || Health == 0){return;}
 
-	Health = FMath::Clamp(Health - Damage, 0.f, DefaultHealth);
+	Health = FMath::Clamp(Health - Damage, 0.f, MaxHealth);
 	
 	if(Health <= 0){
 		if(GameModeRef){
@@ -49,3 +49,9 @@ void UHealthComponent::TakeDamage(AActor* DamagedActor, float Damage, const clas
 }
 
 
+float UHealthComponent::GetHealth() const
+{
+	float Percent = Health/MaxHealth;
+	
+	return Percent;
+}
