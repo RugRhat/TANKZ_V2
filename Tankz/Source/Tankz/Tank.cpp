@@ -23,6 +23,8 @@ ATank::ATank(){
 void ATank::BeginPlay(){
 	
     Super::BeginPlay();
+
+    GetWorld()->GetTimerManager().SetTimer(HealthRegenTimerHandle, this, &ATank::RegenHealth, HealthRegenRate, true, false);
 }
 
 

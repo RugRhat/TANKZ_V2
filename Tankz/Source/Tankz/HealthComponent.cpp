@@ -22,6 +22,9 @@ void UHealthComponent::BeginPlay()
 
 	Health = MaxHealth;
 
+	UE_LOG(LogTemp, Warning, TEXT("Health: %f"), Health);
+	UE_LOG(LogTemp, Warning, TEXT("Max Health: %f"), MaxHealth);
+
 	GameModeRef = Cast<ATankzGameModeBase>(UGameplayStatics::GetGameMode(GetWorld()));
 
 	Owner = GetOwner();
@@ -29,6 +32,16 @@ void UHealthComponent::BeginPlay()
 		Owner->OnTakeAnyDamage.AddDynamic(this, &UHealthComponent::TakeDamage);
 	} else{
 		UE_LOG(LogTemp, Warning, TEXT("Health component has no reference to owner"));
+	}
+
+	
+}
+
+
+void UHealthComponent::RegenHealth() 
+{
+	if(Health <= (MaxHealth - 5)){
+		Health += 5;
 	}
 }
 
@@ -38,7 +51,7 @@ void UHealthComponent::TakeDamage(AActor* DamagedActor, float Damage, const clas
 	if(Damage == 0 || Health == 0){return;}
 
 	Health = FMath::Clamp(Health - Damage, 0.f, MaxHealth);
-	
+		
 	if(Health <= 0){
 		if(GameModeRef){
 			GameModeRef->ActorDied(Owner);
@@ -52,6 +65,6 @@ void UHealthComponent::TakeDamage(AActor* DamagedActor, float Damage, const clas
 float UHealthComponent::GetHealth() const
 {
 	float Percent = Health/MaxHealth;
-	
+
 	return Percent;
 }

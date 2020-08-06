@@ -1,0 +1,3 @@
+C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\Definitions.Tankz.h
+C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Source\Tankz\PlayerCameraShake.h
+C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Inc\Tankz\PlayerCameraShake.generated.h

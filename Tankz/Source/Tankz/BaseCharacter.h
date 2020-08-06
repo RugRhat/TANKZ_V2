@@ -24,6 +24,8 @@ public:
 
 	virtual void Fire();
 
+	void RegenHealth();
+	
 	void CharDestroyed();
 
 private:
@@ -45,6 +47,7 @@ private:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Effects", meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<UCameraShake> DeathShake;
+
 
 protected:
 

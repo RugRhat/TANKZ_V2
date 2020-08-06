@@ -38,6 +38,12 @@ float ABaseCharacter::GetHealth() const
 }
 
 
+void ABaseCharacter::RegenHealth() 
+{
+	HealthComponent->RegenHealth();
+}
+
+
 void ABaseCharacter::CharDestroyed() 
 {
 	HandleDestruction();

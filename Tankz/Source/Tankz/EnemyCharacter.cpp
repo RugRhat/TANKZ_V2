@@ -35,6 +35,8 @@ void AEnemyCharacter::HandleDestruction()
 
     SetActorHiddenInGame(true);
     SetActorTickEnabled(false);
+
+    Destroy();
 }
 
 

@@ -61,7 +61,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATank); \
 #define Tankz_Source_Tankz_Tank_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SpringArm() { return STRUCT_OFFSET(ATank, SpringArm); } \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(ATank, Camera); } \
-	FORCEINLINE static uint32 __PPO__RotateSpeed() { return STRUCT_OFFSET(ATank, RotateSpeed); }
+	FORCEINLINE static uint32 __PPO__RotateSpeed() { return STRUCT_OFFSET(ATank, RotateSpeed); } \
+	FORCEINLINE static uint32 __PPO__HealthRegenRate() { return STRUCT_OFFSET(ATank, HealthRegenRate); }
 
 
 #define Tankz_Source_Tankz_Tank_h_12_PROLOG

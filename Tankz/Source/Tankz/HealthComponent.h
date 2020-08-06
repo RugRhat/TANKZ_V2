@@ -19,10 +19,13 @@ public:
 
 	float GetHealth() const;
 
+	void RegenHealth();
+
 private:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Health", meta = (AllowPrivateAccess = "true"))
 	float MaxHealth = 100.f;
+	
 	float Health = 0.f;
 
 	AActor* Owner;

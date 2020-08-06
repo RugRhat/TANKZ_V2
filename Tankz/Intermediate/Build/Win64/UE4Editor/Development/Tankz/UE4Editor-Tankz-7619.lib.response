@@ -1,0 +1,36 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Tankz-7619.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\TankzEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\BaseCharacter.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\BTService_PlayerLocation.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\BTTask_Fire.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\EnemyAIController.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\EnemyCharacter.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\HealthComponent.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\PlayerCameraShake.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\Projectile.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\Tank.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\Tankz.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\TankzController.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\TankzGameModeBase.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\BaseCharacter.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\BTService_PlayerLocation.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\BTTask_Fire.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\EnemyAIController.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\EnemyCharacter.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\HealthComponent.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\PlayerCameraShake.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\Projectile.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\Tank.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\Tankz.init.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\TankzController.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\TankzGameModeBase.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\Default.rc2.res"
+/OUT:"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\TANKZ_V2\Tankz\Intermediate\Build\Win64\UE4Editor\Development\Tankz\UE4Editor-Tankz-7619.lib"
+/INCLUDE:IMPLEMENT_MODULE_Tankz

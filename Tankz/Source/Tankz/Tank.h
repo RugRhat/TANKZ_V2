@@ -37,10 +37,15 @@ private:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement", meta = (AllowPrivateAccess = "true"))
 	float RotateSpeed = 70.f;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health", meta = (AllowPrivateAccess = "true"))
+	float HealthRegenRate = 2.f;
+
 	void Move(float AxisValue);
 	void Turn(float AxisValue);
 
 	bool bAlive = true;
+
+	FTimerHandle HealthRegenTimerHandle;
 
 protected:
 
