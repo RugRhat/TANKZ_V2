@@ -22,9 +22,6 @@ void UHealthComponent::BeginPlay()
 
 	Health = MaxHealth;
 
-	UE_LOG(LogTemp, Warning, TEXT("Health: %f"), Health);
-	UE_LOG(LogTemp, Warning, TEXT("Max Health: %f"), MaxHealth);
-
 	GameModeRef = Cast<ATankzGameModeBase>(UGameplayStatics::GetGameMode(GetWorld()));
 
 	Owner = GetOwner();
